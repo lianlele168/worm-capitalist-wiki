@@ -20,7 +20,7 @@ const fredoka = Fredoka({
 export const metadata: Metadata = {
   metadataBase: new URL(site.baseUrl),
   title: {
-    default: "Worm Capitalist Guide (August 2026)",
+    default: "Worm Capitalist Guide (September 2026)",
     template: "%s | Worm Capitalist Guide",
   },
   description: site.description,

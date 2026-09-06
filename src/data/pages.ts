@@ -183,7 +183,7 @@ export const guidePages: GuidePage[] = [
     image: "/screen-skill-tree.jpg",
     imageAlt: "Worm Capitalist skill and upgrade screen",
     sections: [
-      { heading: "Known reported issues", bullets: ["A player reported progress loss after accidentally refreshing the page.", "A player reported a naming glitch when hiring multiple worms at the same time.", "Several comments disagree about pacing, which suggests balance is still changing.", "Mobile input is not the target for the current demo."] },
+      { heading: "Known reported issues", bullets: ["A player reported progress loss after accidentally refreshing the page.", "A player reported a naming glitch when hiring multiple worms at the same time, and the developer has acknowledged it.", "Several comments disagree about pacing, and the developer said pacing and balance changes are planned.", "Mobile input is not the target for the current demo."] },
       { heading: "Troubleshooting steps", steps: [{ title: "Open itch directly", body: "If the embed is blank or input focus is unreliable, use the official itch.io page." }, { title: "Use desktop input", body: "Right-click and frequent mouse interactions are core to the current build." }, { title: "Avoid refresh during a run", body: "Until save behavior is clearer, do not refresh mid-session." }] },
     ],
     faqs: [
@@ -200,7 +200,7 @@ export const guidePages: GuidePage[] = [
     image: "/cover.png",
     imageAlt: "Worm Capitalist cover",
     sections: [
-      { heading: "Steam page facts", bullets: ["Planned release date: 2026.", "Developer and publisher: Tikotey.", "Single-player incremental simulation with automation and management tags.", "The official itch page asks players to wishlist the Steam release."] },
+      { heading: "Steam page facts", bullets: ["Planned release date: 2026.", "Developer and publisher: Tikotey.", "Single-player incremental simulation with automation and management tags.", "The itch page banner says Steam Demo Coming Soon and asks players to wishlist the Steam release.", "Steam lists Windows-only requirements: 64-bit Windows 10, DirectX 11, 4 GB RAM, and about 500 MB storage."] },
       { heading: "Why the Steam page matters", paragraphs: ["For SEO, Steam confirms this is more than a one-off web toy. For players, it explains why some mechanics in the itch build are framed as early or upcoming."] },
     ],
     faqs: [
@@ -217,7 +217,7 @@ export const guidePages: GuidePage[] = [
     image: "/cover.png",
     imageAlt: "Worm Capitalist cover",
     sections: [
-      { heading: "Current public facts", bullets: ["Published on itch.io on August 20, 2026.", "Updated on itch.io on August 23, 2026.", "Official page lists HTML5 and Windows, status in development, genre Simulation, made with Unity and Aseprite.", "Official page lists rating around 4.2 with 14 total ratings when checked.", "Steam page lists planned release in 2026."] },
+      { heading: "Current public facts", bullets: ["Published on itch.io on August 20, 2026.", "Updated on itch.io on August 24, 2026.", "Official page lists HTML5 and Windows, status in development, genre Simulation, made with Unity and Aseprite.", "Official page lists a rating around 4.3 from 21 ratings as of September 6, 2026.", "Steam page lists planned release in 2026 and shows a Steam Demo Coming Soon banner with wishlists open.", "The developer replied in comments that the naming glitch is acknowledged and that pacing, the instant-poop ability, and the whip will be rebalanced.", "The demo is also listed by third-party portals such as gameVgames and the Incremental Games Database."] },
       { heading: "Source boundaries", paragraphs: ["This is an unofficial guide. It links to and embeds official public pages but does not mirror the game build or claim ownership of art, code, names, or videos. Exact balance values may change as the demo updates."] },
     ],
   },
