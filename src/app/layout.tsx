@@ -34,7 +34,6 @@ export const metadata: Metadata = {
     "Worm Capitalist rebirth",
     "Worm Capitalist Steam demo",
   ],
-  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: "/",
