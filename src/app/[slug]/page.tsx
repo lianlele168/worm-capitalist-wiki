@@ -25,12 +25,14 @@ export async function generateMetadata({ params }: GuideRouteProps): Promise<Met
   const page = getGuidePage(slug);
   if (!page) return {};
   const monthYear = getMonthYear();
+  const isLegal = ["privacy-policy", "terms"].includes(slug);
   return {
     title: `${page.title} (${monthYear})`,
     description: page.description,
     alternates: { canonical: `/${page.slug}/` },
     openGraph: { type: "article", url: `/${page.slug}/`, title: page.title, description: page.description, images: [page.image ?? "/cover.png"] },
     twitter: { card: "summary_large_image", title: page.title, description: page.description, images: [page.image ?? "/cover.png"] },
+    ...(isLegal ? { robots: { index: false, follow: true } } : {}),
   };
 }
 
