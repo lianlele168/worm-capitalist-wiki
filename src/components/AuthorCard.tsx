@@ -10,7 +10,7 @@ interface AuthorCardProps {
 }
 
 export default function AuthorCard({
-  authorName = "Roblox Wiki Hub Research Desk"Earthworm" Sterling',
+  authorName = 'Silas "Earthworm" Sterling',
   role = 'Lead Vermiculture Economist & Idle Simulation Analyst',
   experience = '250+ Hours In-Game • Trillionaire Rebirth Verified',
   patchVersion = 'Browser Release Build v1.04 Verified',

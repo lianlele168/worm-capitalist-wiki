@@ -12,7 +12,7 @@ export function generateMetadata(): Metadata {
   return {
     title: `Worm Capitalist Strategy Guide & Rebirth Roadmap (${monthYear})`,
     description: "Complete strategy guide for Worm Capitalist: Soil aeration formulas, optimal digestion feeding ratios, skill tree progression, and prestige rebirth mechanics.",
-    alternates: { canonical: "/guides/" },
+    alternates: { canonical: "/guides" },
   };
 }
 
