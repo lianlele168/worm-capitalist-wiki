@@ -28,7 +28,7 @@ export default function HomePage() {
         <div className="hero-shade" />
         <div className="page-shell hero-content">
           <div className="max-w-4xl">
-            <p className="hero-eyebrow">Unofficial demo guide / Checked September 2026</p>
+            <p className="hero-eyebrow">Unofficial demo guide / Checked </p>
             <h1>Worm Capitalist</h1>
             <p className="hero-copy">Feed the colony, turn resources into cash, pick upgrades that actually move the loop, and know when to reset before the demo grind turns mushy.</p>
             <div className="mt-7 flex flex-wrap gap-3">

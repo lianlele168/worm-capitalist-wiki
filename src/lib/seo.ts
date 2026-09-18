@@ -77,7 +77,7 @@ export function articleSchema(title: string, description: string, slug: string, 
     mainEntityOfPage: absoluteUrl(slug),
     image: absoluteUrl(image),
     datePublished: site.published,
-    dateModified: site.lastChecked,
+
     author: { "@type": "Organization", name: site.name },
     publisher: { "@type": "Organization", name: site.name },
   };

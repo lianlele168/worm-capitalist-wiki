@@ -3,8 +3,8 @@
 - Official itch.io page: https://tikotey.itch.io/worm-capitalist
 - Steam page: https://store.steampowered.com/app/5073430/Worm_Capitalist/
 - Developer / publisher: Tikotey
-- itch publication date: 2026-08-20
-- itch update checked: 2026-08-23
+- itch publication date: 
+- itch update checked: 
 - Platforms listed: HTML5, Windows
 - Status: In development
 - Genre: Simulation

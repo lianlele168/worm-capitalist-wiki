@@ -14,7 +14,7 @@ export default function AuthorCard({
   role = 'Lead Vermiculture Economist & Idle Simulation Analyst',
   experience = '250+ Hours In-Game • Trillionaire Rebirth Verified',
   patchVersion = 'Browser Release Build v1.04 Verified',
-  lastUpdated = 'September 2026',
+  lastUpdated = '',
   editorialNote = 'All compost conversion rates, skill tree ROI percentages, and automated crawler profit multipliers are reverse-engineered directly from browser simulation source math.',
 }: AuthorCardProps) {
   return (
@@ -41,9 +41,7 @@ export default function AuthorCard({
           <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-amber-500/10 text-amber-300 border border-amber-500/20">
             ⚡ {patchVersion}
           </span>
-          <span className="text-xs text-gray-400">
-            Updated: <strong className="text-gray-200">{lastUpdated}</strong>
-          </span>
+          
         </div>
       </div>
 

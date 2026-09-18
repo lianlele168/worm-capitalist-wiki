@@ -217,7 +217,7 @@ export const guidePages: GuidePage[] = [
     image: "/cover.png",
     imageAlt: "Worm Capitalist cover",
     sections: [
-      { heading: "Current public facts", bullets: ["Published on itch.io on August 20, 2026.", "Updated on itch.io on August 24, 2026.", "Official page lists HTML5 and Windows, status in development, genre Simulation, made with Unity and Aseprite.", "Official page lists a rating around 4.3 from 21 ratings as of September 6, 2026.", "Steam page lists planned release in 2026 and shows a Steam Demo Coming Soon banner with wishlists open.", "The developer replied in comments that the naming glitch is acknowledged and that pacing, the instant-poop ability, and the whip will be rebalanced.", "The demo is also listed by third-party portals such as gameVgames and the Incremental Games Database."] },
+      { heading: "Current public facts", bullets: ["Published on itch.io on .", "Updated on itch.io on .", "Official page lists HTML5 and Windows, status in development, genre Simulation, made with Unity and Aseprite.", "Official page lists a rating around 4.3 from 21 ratings as of .", "Steam page lists planned release in 2026 and shows a Steam Demo Coming Soon banner with wishlists open.", "The developer replied in comments that the naming glitch is acknowledged and that pacing, the instant-poop ability, and the whip will be rebalanced.", "The demo is also listed by third-party portals such as gameVgames and the Incremental Games Database."] },
       { heading: "Source boundaries", paragraphs: ["This is an unofficial guide. It links to and embeds official public pages but does not mirror the game build or claim ownership of art, code, names, or videos. Exact balance values may change as the demo updates."] },
     ],
   },

@@ -9,9 +9,9 @@ export const site = {
   officialTrailerUrl: "https://www.youtube.com/watch?v=_7inFuumaIM",
   directGameUrl: "https://html-classic.itch.zone/html/18897173/webBuild13/index.html?v=1787331827",
   itchEmbedUrl: "https://itch.io/embed/4909489",
-  published: "2026-08-20",
-  updated: "2026-08-24",
-  lastChecked: "2026-09-06",
+  published: "",
+  updated: "",
+  lastChecked: "",
   description:
     "An unofficial Worm Capitalist demo guide with browser play, profit calculator, upgrade route, skill tree notes, rebirth tips, automation watchlist, controls, fixes, and Steam demo tracking.",
 } as const;
