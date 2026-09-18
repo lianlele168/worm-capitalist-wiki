@@ -12,7 +12,7 @@ export function generateMetadata(): Metadata {
   return {
     title: `Worm Capitalist Profit & ROI Calculator (${monthYear})`,
     description: "Calculate idle income per minute, digestion ratios, food cost margins, and rebirth milestones in Worm Capitalist.",
-    alternates: { canonical: "/calculator" },
+    alternates: { canonical: "/calculator/" },
   };
 }
 
