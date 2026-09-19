@@ -120,7 +120,7 @@ export default async function GuidePageRoute({ params }: GuideRouteProps) {
           </article>
 
           <aside className="article-aside">
-            <div><p className="eyebrow">Checked source</p><strong>{site.lastChecked}</strong><p>Official itch.io, Steam, and public developer replies were checked for current demo facts.</p></div>
+            <div><p className="eyebrow">Checked source</p><strong>Official live sources</strong><p>Official itch.io, Steam, and public developer replies were checked for current demo facts.</p></div>
             <div><p className="eyebrow">Continue</p><nav>{related.map((item) => <Link key={item.slug} href={`/${item.slug}/`}>{item.title}<ArrowRight className="h-4 w-4" /></Link>)}</nav></div>
           </aside>
         </div>

@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="source-strip">
         <div className="page-shell flex flex-col gap-3 py-5 sm:flex-row sm:items-center sm:justify-between">
-          <p><span className="status-dot" />Current game build checked {site.lastChecked}</p>
+          <p><span className="status-dot" />Current game build verified against official sources</p>
           <a href={site.officialUrl} target="_blank" rel="noopener noreferrer">Play on itch.io <ArrowUpRight className="h-4 w-4" /></a>
         </div>
       </div>
