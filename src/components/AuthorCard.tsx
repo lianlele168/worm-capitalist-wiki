@@ -10,9 +10,9 @@ interface AuthorCardProps {
 }
 
 export default function AuthorCard({
-  authorName = 'Silas "Earthworm" Sterling',
-  role = 'Lead Vermiculture Economist & Idle Simulation Analyst',
-  experience = '250+ Hours In-Game • Trillionaire Rebirth Verified',
+  authorName = 'Hlele',
+  role = 'Editor',
+  experience = 'AI-assisted research, human-reviewed',
   patchVersion = 'Browser Release Build v1.04 Verified',
   lastUpdated = '',
   editorialNote = 'All compost conversion rates, skill tree ROI percentages, and automated crawler profit multipliers are reverse-engineered directly from browser simulation source math.',

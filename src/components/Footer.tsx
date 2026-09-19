@@ -31,7 +31,7 @@ export default function Footer() {
           <p className="footer-disclaimer"><ShieldCheck className="h-4 w-4 shrink-0" />Not affiliated with Tikotey, itch.io, Steam, or Valve. Game art belongs to its owner.</p>
         </div>
       </div>
-      <div className="page-shell footer-bottom">(c) {new Date().getFullYear()} Worm Capitalist Guide. Independent fan reference.</div>
+      <div className="page-shell footer-bottom">&copy; {new Date().getFullYear()} Worm Capitalist Guide. Independent fan reference. · Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail.com</div>
     </footer>
   );
 }
