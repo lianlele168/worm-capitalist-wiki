@@ -63,7 +63,7 @@ export default function GuidesPage() {
         <div className="page-shell relative z-10 space-y-4">
           <p className="eyebrow flex items-center gap-2">
             <Compass className="w-4 h-4 text-emerald-400" />
-            Verified Vermiculture Economics Protocol
+            Independent strategy guide
           </p>
           <h1>Worm Capitalist: Strategy, Yields & Rebirth Roadmap</h1>
           <p className="max-w-2xl text-slate-300">
