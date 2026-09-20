@@ -39,7 +39,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="fact-strip" aria-label="Verified game facts">
+      <section className="fact-strip" aria-label="game facts">
         <div className="page-shell fact-grid">
           <div><strong>Aug 20</strong><span>itch demo published</span></div>
           <div><strong>4.2</strong><span>rating when checked</span></div>
