@@ -42,8 +42,8 @@ export default function GuidesPage() {
 
     author: {
       "@type": "Person",
-      name: 'Silas "Earthworm" Sterling',
-      jobTitle: "Lead Vermiculture Economist & Idle Simulation Analyst",
+      name: 'Hlele',
+      jobTitle: 'Editor',
     },
     mainEntity: GUIDE_FAQS.map((faq) => ({
       "@type": "Question",

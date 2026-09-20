@@ -49,8 +49,8 @@ export default function CalculatorPage() {
 
     author: {
       "@type": "Person",
-      name: 'Silas "Earthworm" Sterling',
-      jobTitle: "Lead Vermiculture Economist & Idle Simulation Analyst",
+      name: 'Hlele',
+      jobTitle: 'Editor',
     },
     mainEntity: CALCULATOR_FAQS.map((faq) => ({
       "@type": "Question",
