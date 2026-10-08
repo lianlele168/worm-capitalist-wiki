@@ -1,6 +1,6 @@
 {
-  "codeFingerprint": "1439603ef7e911fbef250d6d9c2fe2a85c5f3184c1afa19e3111d9593aa1632e",
-  "checkedAt": "2026-10-08T16:44:38.950Z",
+  "codeFingerprint": "2c8c630080c16bff32a5982b9e89429367479e1c04e1a9dbc61e0d03e36792d1",
+  "checkedAt": "2026-10-08T16:57:56.341Z",
   "routeInventoryArtifact": {
     "path": "quality/artifacts/routes.json",
     "sha256": "b4597fcdec598e9fb639b2df33f02a513f52d4db074d1f3eacbb5a7d26de7dfa"
@@ -15,11 +15,11 @@
       "title": "Worm Capitalist demo guide and measurement tools",
       "renderedArtifact": {
         "path": "quality/artifacts/home.html",
-        "sha256": "9651d02d547449b9af82f5fd0c67d892ea7005930464851988213afb828f9099"
+        "sha256": "1e1d65b3d5c21c9de1d708e2f6e9e955627efb740f10fe71a7041a9d7032d53a"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/home-technical.json",
-        "sha256": "c1509457301b8a569b329df4cc16a837447f62a28aa1b5d5932af83000aedd6e"
+        "sha256": "672d84bf7c12cb7ddeb76b1393a3404d3a177e1e3f882c8b9c4600cf03eb611b"
       },
       "issues": {
         "brokenLinks": [],
@@ -32,11 +32,11 @@
       "title": "About and sources | Worm Capitalist Guide",
       "renderedArtifact": {
         "path": "quality/artifacts/about.html",
-        "sha256": "cc7f20e62112b51efb57641e3f7bc9257eb90b766fce97db37c3ccabdf9aa7b9"
+        "sha256": "e5a64ff1e67adc4f5e89c174b55f58210f8b8a589c65cac83dcf5fe1f0bd823a"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/about-technical.json",
-        "sha256": "52a3a6617036df2b883f0901d08dc8e53bfacf10fdb16ec4887c897ab4a2b777"
+        "sha256": "f22818ffefce5c4a0bc7b8eba0ee1db561db9156d31c716b43fa5e8f238a40e5"
       },
       "issues": {
         "brokenLinks": [],
@@ -49,11 +49,11 @@
       "title": "Privacy policy | Worm Capitalist Guide",
       "renderedArtifact": {
         "path": "quality/artifacts/privacy-policy.html",
-        "sha256": "ae0a78f5e4b2b8275d904f2925f99fe73fed2489360e43c883e806da8e678563"
+        "sha256": "8625d884a088871fc0f32fb1612728bf92cb0e278bf98f44a0775abf6ec01ef9"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/privacy-policy-technical.json",
-        "sha256": "a63d5db720985ee9ba95a67e8a71238fcd0816f7a7da1fb66d58d630084562a6"
+        "sha256": "5927686d3b1b9acdbf8bd8931c20bc08c887f788ebb14c5a70bb3cb6c3754b12"
       },
       "issues": {
         "brokenLinks": [],
@@ -66,11 +66,11 @@
       "title": "Worm Capitalist measurement worksheet | Worm Capitalist Guide",
       "renderedArtifact": {
         "path": "quality/artifacts/profit-calculator.html",
-        "sha256": "e637c4881bea9dabe6cace13fe44b4efca37fb1ff3b4d09362dc01ded2a44784"
+        "sha256": "12516a8c394c516544dd9b26560811374940602b10c927a769ac991d4733af43"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/profit-calculator-technical.json",
-        "sha256": "00c5f906b495b26e4b241c9910a8ddf5b3bfdbfcb37dd2b1e4027c976b31d3b5"
+        "sha256": "f56df305dc8cc89219e845fddae6a5bc7969ca310fbddfabd9dad584f43f6996"
       },
       "issues": {
         "brokenLinks": [],
@@ -83,11 +83,11 @@
       "title": "Terms of use | Worm Capitalist Guide",
       "renderedArtifact": {
         "path": "quality/artifacts/terms.html",
-        "sha256": "ec1c11f9acbad61fc5c849ac33f7839d1a3d6ec74d7f2209bd404da23b52d44e"
+        "sha256": "65a8101a446515e51768a8d4f265793c0f172668ece12593b120e1f0be4488ab"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/terms-technical.json",
-        "sha256": "88f550e9001393a11cf1523938481aa4baeafaa4d6df8d5b9fdfa4681b67d97a"
+        "sha256": "308fc9f5d584ebec25cf3e3c397b1180baf48a0b9f2139c0ecf3e1a1d4614bdd"
       },
       "issues": {
         "brokenLinks": [],
@@ -100,11 +100,11 @@
       "title": "Worm Capitalist observation guide | Worm Capitalist Guide",
       "renderedArtifact": {
         "path": "quality/artifacts/walkthrough.html",
-        "sha256": "b4c53e9b2f379b9b3e17f7842baf02318040ae059174fbf32182819d7f115972"
+        "sha256": "bc69dc033c44b5b337c712a801b2c1adcc6eb13ec64df685db1ca3b81027185d"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/walkthrough-technical.json",
-        "sha256": "a2881e3eeae0ae79c2e547098e5e166fb5dfeb09bcfd0a2da8f4fe93a22bf546"
+        "sha256": "da2db2eb747a771523966c37afbe1c805db53ab10ae5030476786b7bad2de107"
       },
       "issues": {
         "brokenLinks": [],

@@ -1,8 +1,8 @@
 {
   "path": "/privacy-policy/",
-  "codeFingerprint": "1439603ef7e911fbef250d6d9c2fe2a85c5f3184c1afa19e3111d9593aa1632e",
-  "checkedAt": "2026-10-08T16:44:34.899Z",
-  "testedUrl": "http://127.0.0.1:60953/privacy-policy/",
+  "codeFingerprint": "2c8c630080c16bff32a5982b9e89429367479e1c04e1a9dbc61e0d03e36792d1",
+  "checkedAt": "2026-10-08T16:57:51.714Z",
+  "testedUrl": "http://127.0.0.1:53591/privacy-policy/",
   "httpStatus": 200,
   "canonical": "https://wormcapitalist.robloxwikihub.com/privacy-policy/",
   "robotsAllowed": true,
@@ -74,10 +74,10 @@
   "interactionScope": "Shared header search/navigation tested on retained routes; worksheet and checklist full test coverage. Static legal bodies have no separate controls.",
   "externalLinkReview": "Only HTTP destinations are captured current itch.io and Steam official pages, both HTTP 200; mailto is retained correction link, no message sent.",
   "visualReviewer": "Codex /root/roblox_repairs",
-  "visualReviewedAt": "2026-10-08T16:46:03.917Z",
-  "visualReviewBasis": "Gate-only revalidation: 27/28 route and filled screenshots byte-identical to previously inspected images; changed profit-calculator 768px image actually inspected again and remains legible.",
+  "visualReviewedAt": "2026-10-08T16:59:18.146Z",
+  "visualReviewBasis": "Gate-only revalidation: 20/28 route and filled screenshots byte-identical to previously inspected images; eight changed screenshots all opened and visually inspected again, with legible text and controls.",
   "interactionArtifact": {
     "path": "quality/artifacts/interaction-review.json",
-    "sha256": "b536a8c469b1fd85e6d69cf5cc11409756b0973fc19e13b8a6ce64d6fc4c7c0b"
+    "sha256": "1a701949456935978d7250f6a5b20aac9f110f6f1026a3abcc9a31465b6cb59f"
   }
 }

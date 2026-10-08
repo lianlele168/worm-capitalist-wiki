@@ -31,6 +31,13 @@ export function fingerprint(project) {
   // known text formats; binary assets must retain byte-sensitive fingerprints.
   const contentHash = f => {
     const bytes = fs.readFileSync(f);
+    // Vercel may reserialize its root config before invoking the build command.
+    // Ignore JSON formatting only here; preserve every value and object-key order.
+    // Do not extend this to other JSON whose whitespace may be rendered content.
+    if (path.relative(project, f).replaceAll('\\', '/') === 'vercel.json') {
+      try { return hash(JSON.stringify(JSON.parse(bytes.toString('utf8')))); }
+      catch { return hash(bytes); } // Invalid JSON never receives normalization.
+    }
     return hash(/\.(?:[cm]?[jt]sx?|json|ya?ml|toml|css|s[ac]ss|html?|mdx?|txt|xml|svg|lock)$/i.test(f)
       ? bytes.toString('utf8').replaceAll('\r\n', '\n') : bytes);
   };

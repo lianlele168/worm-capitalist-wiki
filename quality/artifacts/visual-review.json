@@ -1,7 +1,7 @@
 {
   "reviewer": "Codex agent",
   "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
-  "codeFingerprint": "1439603ef7e911fbef250d6d9c2fe2a85c5f3184c1afa19e3111d9593aa1632e",
+  "codeFingerprint": "2c8c630080c16bff32a5982b9e89429367479e1c04e1a9dbc61e0d03e36792d1",
   "observations": [
     {
       "route": "/",
@@ -62,7 +62,7 @@
       "width": 1024,
       "screenshot": {
         "path": "quality/artifacts/about-1024.png",
-        "sha256": "8bb1b276cda042dc08e23c8f76609a3a0c2a4f9f60d4e3be1021d64db1a7772a"
+        "sha256": "c8d41b46f0f47207c9bf95463ff2583d26fb7711dc05010712f1bdf9fb6129be"
       },
       "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
     },
@@ -125,7 +125,7 @@
       "width": 768,
       "screenshot": {
         "path": "quality/artifacts/profit-calculator-768.png",
-        "sha256": "7ec31292c88a9291eb8e557de29558dd03c86cdb08dd58ef7a8223cf3a4e8ff4"
+        "sha256": "99a27ebd175fb9d6b818a619d59e4e9d765baabd7f1087e886b773f74fdc96b8"
       },
       "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
     },
@@ -197,7 +197,7 @@
       "width": 768,
       "screenshot": {
         "path": "quality/artifacts/walkthrough-768.png",
-        "sha256": "cac21560012b07594f33ef1f40a4a53731d298dafabfc14ba90c1aed6e9d9d30"
+        "sha256": "774f72180e2308b8326ff73e1fad444f706cdab4136081fe9c3ea4a10f3b616f"
       },
       "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
     },
@@ -206,7 +206,7 @@
       "width": 1024,
       "screenshot": {
         "path": "quality/artifacts/walkthrough-1024.png",
-        "sha256": "16d81f363257d7ddc85b028562f461c1f0857e52d1601310163f760c8c5c8621"
+        "sha256": "fcb4f83b9b0208d260afc9ad8b46382a64cbfe128fd0815c07907d5b584a7114"
       },
       "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
     },
@@ -215,7 +215,7 @@
       "width": 1440,
       "screenshot": {
         "path": "quality/artifacts/walkthrough-1440.png",
-        "sha256": "bdb5abefcaef9a1de892fb486c146790e64edb6e11a81aeb55ed8ff22e4eda24"
+        "sha256": "ec033e8b217d0325a846dabe88f038eff4e1e9544f7003cc4929f07a8418bcb9"
       },
       "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
     }
@@ -223,11 +223,11 @@
   "filledWorksheet": [
     {
       "path": "quality/artifacts/worksheet-filled-390.png",
-      "sha256": "d8e9d842a6e8f56aff31a700c9d9fc5d3140ba13d2bc983556a9f7a6acaef8a3"
+      "sha256": "f4542e2dee428baecd31c29498823be3cf4578c75bfa636a9b8fa6bcd7203d85"
     },
     {
       "path": "quality/artifacts/worksheet-filled-768.png",
-      "sha256": "6e11c5e02cca7c803c9e82275bd25855f04a4c760f5545d80e66e6283ec2ab60"
+      "sha256": "fcdd2fdc8aea2d0379a1370fb0314eba9e3f1613e31cada1247de376eb296022"
     },
     {
       "path": "quality/artifacts/worksheet-filled-1024.png",
@@ -235,9 +235,9 @@
     },
     {
       "path": "quality/artifacts/worksheet-filled-1440.png",
-      "sha256": "d5b35a27a1a7f2539ae368d80a13b6dece4f608e3195439dd66762f6bfcf91ce"
+      "sha256": "7ad038ec854d91c37c9c3384f620772e32296730dffbf2513016808b56a5e9f2"
     }
   ],
-  "revalidatedAt": "2026-10-08T16:46:03.917Z",
-  "revalidation": "Fresh screenshots compared to prior inspected bytes: 27 identical, one 768px worksheet capture re-inspected. No application, fact, claim or design changes."
+  "revalidatedAt": "2026-10-08T16:59:18.146Z",
+  "revalidation": "Fresh screenshots compared to prior inspected bytes: 20 identical, eight changed captures all opened and re-inspected. No application, fact, claim or design changes."
 }
