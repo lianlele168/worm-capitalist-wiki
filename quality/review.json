@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "codeFingerprint": "5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472",
+  "codeFingerprint": "1439603ef7e911fbef250d6d9c2fe2a85c5f3184c1afa19e3111d9593aa1632e",
   "site": {
     "baseUrl": "https://wormcapitalist.robloxwikihub.com/",
     "officialUrl": "https://tikotey.itch.io/worm-capitalist",
@@ -62,10 +62,10 @@
       "id": "interactions",
       "kind": "observation",
       "url": "https://wormcapitalist.robloxwikihub.com/profit-calculator/",
-      "checkedAt": "2026-10-08T16:32:11.249656+00:00",
+      "checkedAt": "2026-10-08T16:44:49.764Z",
       "artifact": {
         "path": "quality/artifacts/interaction-review.json",
-        "sha256": "704f6c97cb1e40778fb23b74077016e049cb794cff92daddf5350bc58e1b91e3"
+        "sha256": "b536a8c469b1fd85e6d69cf5cc11409756b0973fc19e13b8a6ce64d6fc4c7c0b"
       }
     },
     {
@@ -287,7 +287,7 @@
       ],
       "calibrationArtifact": {
         "path": "quality/artifacts/interaction-review.json",
-        "sha256": "704f6c97cb1e40778fb23b74077016e049cb794cff92daddf5350bc58e1b91e3"
+        "sha256": "b536a8c469b1fd85e6d69cf5cc11409756b0973fc19e13b8a6ce64d6fc4c7c0b"
       },
       "review": {
         "status": "supported",
@@ -423,11 +423,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/home.html",
-        "sha256": "9d5bcd10b40fd70b0c9031e7f3343f68c72c2aacc53cb49ad5f5af32a4ba0c16"
+        "sha256": "9651d02d547449b9af82f5fd0c67d892ea7005930464851988213afb828f9099"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/home-technical.json",
-        "sha256": "4dead3770ea2b6340f9ea89ce8eeee0a8d49502d4220cf8606a1f0c4556e48a5"
+        "sha256": "c1509457301b8a569b329df4cc16a837447f62a28aa1b5d5932af83000aedd6e"
       }
     },
     {
@@ -460,11 +460,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/about.html",
-        "sha256": "3b6033b1421866c130944999622a4e33922ff43e65f0f0e439e6b17753ce4d50"
+        "sha256": "cc7f20e62112b51efb57641e3f7bc9257eb90b766fce97db37c3ccabdf9aa7b9"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/about-technical.json",
-        "sha256": "8831c674dcfc976d144422f1cc2841aeabfef209107d831fc3b962feab0511b0"
+        "sha256": "52a3a6617036df2b883f0901d08dc8e53bfacf10fdb16ec4887c897ab4a2b777"
       }
     },
     {
@@ -493,11 +493,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/privacy-policy.html",
-        "sha256": "9a38d967be44c10f8f810c530dbd606c2e26ed4b376805f73bebb511a2008eb9"
+        "sha256": "ae0a78f5e4b2b8275d904f2925f99fe73fed2489360e43c883e806da8e678563"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/privacy-policy-technical.json",
-        "sha256": "383b43e31f18565d425da080f4de552242b3a6f2ee1cd84d2ed0a20e0d9ae54a"
+        "sha256": "a63d5db720985ee9ba95a67e8a71238fcd0816f7a7da1fb66d58d630084562a6"
       }
     },
     {
@@ -528,11 +528,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/profit-calculator.html",
-        "sha256": "bf2765496683605114191c7cc8accfffe349a3b53f32d9386edb15da45723fd6"
+        "sha256": "e637c4881bea9dabe6cace13fe44b4efca37fb1ff3b4d09362dc01ded2a44784"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/profit-calculator-technical.json",
-        "sha256": "56c7fffb503151796e8037b7b10def75baccc25e55f54220acc732157b6cec28"
+        "sha256": "00c5f906b495b26e4b241c9910a8ddf5b3bfdbfcb37dd2b1e4027c976b31d3b5"
       },
       "tool": {
         "type": "user-estimator",
@@ -567,11 +567,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/terms.html",
-        "sha256": "6f58f124141d7e46e39a97b225e9cd387b1255abd14b3e6c650c46b027924a67"
+        "sha256": "ec1c11f9acbad61fc5c849ac33f7839d1a3d6ec74d7f2209bd404da23b52d44e"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/terms-technical.json",
-        "sha256": "0117a4d58410ffb34d7b37269e8a01a4f5bcf6bd1d961bc6151b20b4cd9f36ba"
+        "sha256": "88f550e9001393a11cf1523938481aa4baeafaa4d6df8d5b9fdfa4681b67d97a"
       }
     },
     {
@@ -602,11 +602,11 @@
       },
       "renderedArtifact": {
         "path": "quality/artifacts/walkthrough.html",
-        "sha256": "b7440146603e9fbce86956d09cb3de22a16af83f05c247b64fe4a20b1a2d3c26"
+        "sha256": "b4c53e9b2f379b9b3e17f7842baf02318040ae059174fbf32182819d7f115972"
       },
       "technicalArtifact": {
         "path": "quality/artifacts/walkthrough-technical.json",
-        "sha256": "68769f2a0625e20ed18a46f69872eee5856c90a521759217986418ba2b82176e"
+        "sha256": "a2881e3eeae0ae79c2e547098e5e166fb5dfeb09bcfd0a2da8f4fe93a22bf546"
       }
     }
   ],
@@ -629,7 +629,7 @@
   },
   "buildArtifact": {
     "path": "quality/artifacts/build.log",
-    "sha256": "0b8096a19e3472d6e24e34cc680ff21c83805da696a2281b8b9eac1832b8d149"
+    "sha256": "bf6c6e2bcfaebead53a1b911e4538a07fa8a5b188ae48df966da05dc8ccee7bc"
   },
   "buildStatus": "passed",
   "unresolved": []

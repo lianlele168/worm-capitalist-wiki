@@ -1,7 +1,7 @@
 {
   "reviewer": "Codex agent",
   "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
-  "codeFingerprint": "5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472",
+  "codeFingerprint": "1439603ef7e911fbef250d6d9c2fe2a85c5f3184c1afa19e3111d9593aa1632e",
   "observations": [
     {
       "route": "/",
@@ -125,7 +125,7 @@
       "width": 768,
       "screenshot": {
         "path": "quality/artifacts/profit-calculator-768.png",
-        "sha256": "3f183822e4641b27d19fbf680270021fd51e187dfe4d85f9bc0f92e64e5dc070"
+        "sha256": "7ec31292c88a9291eb8e557de29558dd03c86cdb08dd58ef7a8223cf3a4e8ff4"
       },
       "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
     },
@@ -237,5 +237,7 @@
       "path": "quality/artifacts/worksheet-filled-1440.png",
       "sha256": "d5b35a27a1a7f2539ae368d80a13b6dece4f608e3195439dd66762f6bfcf91ce"
     }
-  ]
+  ],
+  "revalidatedAt": "2026-10-08T16:46:03.917Z",
+  "revalidation": "Fresh screenshots compared to prior inspected bytes: 27 identical, one 768px worksheet capture re-inspected. No application, fact, claim or design changes."
 }

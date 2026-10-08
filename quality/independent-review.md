@@ -11,3 +11,5 @@ Independently recomputed the worksheet examples: (160-100)/2=30; (160-100+20)/2=
 Metadata requests indexing only for the homepage, measurement worksheet and observation guide. About/legal pages are noindex and excluded from the sitemap. Twelve retired routes have actual local 404 observations. No fixed game iframe or unsupported media remains. No fake verification date, author, game model or promise of Google indexing is introduced.
 
 No publication-blocking factual or implementation issue found in this reviewed scope. Release still requires the root quality gate, successful provider build and actual formal-domain verification. Code fingerprint: 5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472.
+
+Gate-only addendum, Codex /root, 2026-10-08 UTC: reviewed the four-line generated-file exclusion; confirmed no src/public/package/config diff and re-ran 26 root gate tests (all passed). Read new gate-revalidation and interaction records. Facts remain unchanged; new fingerprint 1439603ef7e911fbef250d6d9c2fe2a85c5f3184c1afa19e3111d9593aa1632e. Publication proceeds only through the corrected gate and live checks.
