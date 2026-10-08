@@ -1,0 +1,14 @@
+{
+  "project": "worm-capitalist-wiki",
+  "id": "itch",
+  "url": "https://tikotey.itch.io/worm-capitalist",
+  "checkedAt": "2026-10-08T15:23:20.561Z",
+  "review": "pending",
+  "status": 200,
+  "finalUrl": "https://tikotey.itch.io/worm-capitalist",
+  "contentType": "text/html",
+  "artifact": {
+    "path": "quality/artifacts/sources/itch.html",
+    "sha256": "8e8e2430cd5ca9122b1d1c740997c1724d72bd5b63b32e33e063b403741fdfd8"
+  }
+}

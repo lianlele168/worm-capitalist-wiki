@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="page-shell footer-grid">
         <div>
           <div className="flex items-center gap-3"><span className="brand-mark"><Sprout className="h-5 w-5" /></span><strong className="font-display text-xl text-white">Worm Capitalist Guide</strong></div>
-          <p className="mt-4 max-w-lg text-sm leading-7 text-[#d8d4c8]">An independent companion for Tikotey&apos;s incremental demo, organized around browser play, upgrade choices, profit estimates, rebirth, and update-sensitive Steam tracking.</p>
+          <p className="mt-4 max-w-lg text-sm leading-7 text-[#d8d4c8]">An independent companion for Tikotey&apos;s incremental demo, with official game links, observation checklists and a worksheet for player-entered balances.</p>
         </div>
         <div>
           <h2>Explore</h2>
@@ -23,15 +23,15 @@ export default function Footer() {
         <div>
           <h2>Site</h2>
           <ul>
-            <li><Link href="/updates/">Updates & Sources</Link></li>
+
             <li><Link href="/about/">About</Link></li>
             <li><Link href="/privacy-policy/">Privacy Policy</Link></li>
             <li><Link href="/terms/">Terms</Link></li>
           </ul>
-          <p className="footer-disclaimer"><ShieldCheck className="h-4 w-4 shrink-0" />Not affiliated with Tikotey, itch.io, Steam, or Valve. Game art belongs to its owner.</p>
+          <p className="footer-disclaimer"><ShieldCheck className="h-4 w-4 shrink-0" />Not affiliated with Tikotey, Ivy Juice, itch.io, Steam, or Valve.</p>
         </div>
       </div>
-      <div className="page-shell footer-bottom">&copy; {new Date().getFullYear()} Worm Capitalist Guide. Independent fan reference. · Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail.com</div>
+      <div className="page-shell footer-bottom">Worm Capitalist Guide · Hlele. Independent fan reference. · AI-assisted content · Data sources cited on page · Contact: lianlele168@gmail.com</div>
     </footer>
   );
 }

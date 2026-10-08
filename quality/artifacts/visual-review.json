@@ -1,0 +1,241 @@
+{
+  "reviewer": "Codex agent",
+  "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+  "codeFingerprint": "5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472",
+  "observations": [
+    {
+      "route": "/",
+      "width": 390,
+      "screenshot": {
+        "path": "quality/artifacts/home-390.png",
+        "sha256": "8e2d2b193a41b1edffbb33d3c2b8c4b745e7de4febad619b8a0e0fc0ff64800d"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "screenshot": {
+        "path": "quality/artifacts/home-768.png",
+        "sha256": "bee6e4cb54451f450b16444015c9d423034e30dd7de6bd1f7e624938a2c7fd9a"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "screenshot": {
+        "path": "quality/artifacts/home-1024.png",
+        "sha256": "cbd2eee6a96379c9bd191281ea532d9dfe46b6659947408e1b9fee2375355023"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "screenshot": {
+        "path": "quality/artifacts/home-1440.png",
+        "sha256": "959dcb0e521bc1355559d9c95aeb920281a8c1e684f4bc49210f81ba5ca517c8"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "screenshot": {
+        "path": "quality/artifacts/about-390.png",
+        "sha256": "219abbe7b7100f23ce095358a4da663cbbc3af5c097781fd86e8cbc5a4e2910b"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "screenshot": {
+        "path": "quality/artifacts/about-768.png",
+        "sha256": "fb9166616feaaf12c0b057424f1796a6c6ec1b2db02a2b5e5977edff7d138e08"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/about/",
+      "width": 1024,
+      "screenshot": {
+        "path": "quality/artifacts/about-1024.png",
+        "sha256": "8bb1b276cda042dc08e23c8f76609a3a0c2a4f9f60d4e3be1021d64db1a7772a"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "screenshot": {
+        "path": "quality/artifacts/about-1440.png",
+        "sha256": "340309d67aef6451baeaae61632b51a1e973f630e9e098f4e3a816f3d6d72abd"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 390,
+      "screenshot": {
+        "path": "quality/artifacts/privacy-policy-390.png",
+        "sha256": "432ceba2b7489eb570520aba910185dd5aaf92022e8fe4e7c4886f160e661f41"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 768,
+      "screenshot": {
+        "path": "quality/artifacts/privacy-policy-768.png",
+        "sha256": "3d75f89bc8e29036cbec3d274c43d05b98d22bb0c8ffaf71b3f6657a242fa97a"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1024,
+      "screenshot": {
+        "path": "quality/artifacts/privacy-policy-1024.png",
+        "sha256": "92b77db10e1c5170eb1bac1b77211aeb2e4e50caea7f538cae53cec7b1654bd6"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1440,
+      "screenshot": {
+        "path": "quality/artifacts/privacy-policy-1440.png",
+        "sha256": "90accdb9ff0528c1e289b1ad075f41670e006c47aceeec30ef9f213a14302539"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/profit-calculator/",
+      "width": 390,
+      "screenshot": {
+        "path": "quality/artifacts/profit-calculator-390.png",
+        "sha256": "ff38efa69dcbc291c9227ad427d7dccc22ad515d2a801e40283a1da16bf22bb9"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/profit-calculator/",
+      "width": 768,
+      "screenshot": {
+        "path": "quality/artifacts/profit-calculator-768.png",
+        "sha256": "3f183822e4641b27d19fbf680270021fd51e187dfe4d85f9bc0f92e64e5dc070"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/profit-calculator/",
+      "width": 1024,
+      "screenshot": {
+        "path": "quality/artifacts/profit-calculator-1024.png",
+        "sha256": "042767e114a8b9efb5b08b6f88e1744b64c8a76f255d9c9274dd2a004f14e013"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/profit-calculator/",
+      "width": 1440,
+      "screenshot": {
+        "path": "quality/artifacts/profit-calculator-1440.png",
+        "sha256": "607b2c50c141b04afe8f56cde87a0a336451a02cdca50a0e6404ca5414310f0a"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/terms/",
+      "width": 390,
+      "screenshot": {
+        "path": "quality/artifacts/terms-390.png",
+        "sha256": "c08168f4763e5fae46eb1164ee31b9106ef967df0ff96007769000226f5a1f42"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/terms/",
+      "width": 768,
+      "screenshot": {
+        "path": "quality/artifacts/terms-768.png",
+        "sha256": "8b856da68eb3a1c9da8a3b97fd688a6e20cbee64d76e8adf813f4bc4a06e9ff2"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/terms/",
+      "width": 1024,
+      "screenshot": {
+        "path": "quality/artifacts/terms-1024.png",
+        "sha256": "39bafc49f2f11a4edb58b11c3453a1f5607a3d7c6473674374fe7f9efb16cd90"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/terms/",
+      "width": 1440,
+      "screenshot": {
+        "path": "quality/artifacts/terms-1440.png",
+        "sha256": "06ae57971ff39977e6d43397f96424847c0caadc2cfa888abe21273bb4cc17c0"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/walkthrough/",
+      "width": 390,
+      "screenshot": {
+        "path": "quality/artifacts/walkthrough-390.png",
+        "sha256": "ecb65ca16aaf0f0dcfcda173120bce2e49c17ad2c552c8ff5a1135cf20ff6556"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/walkthrough/",
+      "width": 768,
+      "screenshot": {
+        "path": "quality/artifacts/walkthrough-768.png",
+        "sha256": "cac21560012b07594f33ef1f40a4a53731d298dafabfc14ba90c1aed6e9d9d30"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/walkthrough/",
+      "width": 1024,
+      "screenshot": {
+        "path": "quality/artifacts/walkthrough-1024.png",
+        "sha256": "16d81f363257d7ddc85b028562f461c1f0857e52d1601310163f760c8c5c8621"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    },
+    {
+      "route": "/walkthrough/",
+      "width": 1440,
+      "screenshot": {
+        "path": "quality/artifacts/walkthrough-1440.png",
+        "sha256": "bdb5abefcaef9a1de892fb486c146790e64edb6e11a81aeb55ed8ff22e4eda24"
+      },
+      "result": "Actually viewed: legible body/labels, no horizontal overflow or overlapping controls."
+    }
+  ],
+  "filledWorksheet": [
+    {
+      "path": "quality/artifacts/worksheet-filled-390.png",
+      "sha256": "d8e9d842a6e8f56aff31a700c9d9fc5d3140ba13d2bc983556a9f7a6acaef8a3"
+    },
+    {
+      "path": "quality/artifacts/worksheet-filled-768.png",
+      "sha256": "6e11c5e02cca7c803c9e82275bd25855f04a4c760f5545d80e66e6283ec2ab60"
+    },
+    {
+      "path": "quality/artifacts/worksheet-filled-1024.png",
+      "sha256": "6a28586def26784ba1408ca24bb1cc2b7a8a1838e66b89d5f5d376360bf324c9"
+    },
+    {
+      "path": "quality/artifacts/worksheet-filled-1440.png",
+      "sha256": "d5b35a27a1a7f2539ae368d80a13b6dece4f608e3195439dd66762f6bfcf91ce"
+    }
+  ]
+}

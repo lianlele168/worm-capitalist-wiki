@@ -1,0 +1,40 @@
+Home
+/
+Worm Capitalist Updates and Sources
+
+SOURCE LOG
+
+Worm Capitalist Updates and Sources
+
+Public-source review by Codex on 8 October 2026; no in-game playtest is claimed.
+
+Official game
+Checklist
+What was checked
+
+The official itch.io landing page and Steam listing were read. Steam demo availability and publisher attribution were corrected. The source check does not certify every gameplay statement from an earlier version of this site.
+
+What changed
+
+Removed unsupported upgrade names, numerical bonuses and reset thresholds from the old guides route. Replaced the guessed profit model with a worksheet for user measurements. Removed automatic month labels and build-time sitemap dates.
+
+Still unknown
+
+A verified current upgrade table, skill costs, reset formula, optimal purchase order and cross-platform save behavior remain unavailable in this review. Follow the official links below for current announcements.
+
+Official itch.io release
+Official update entry
+Steam page
+
+SOURCE SCOPE
+
+Dated public-source review
+
+See Updates & Sources for the 8 October 2026 public-page review and remaining gaps. No in-game playtest is claimed.
+
+CONTINUE
+
+Play Worm Capitalist Online
+Worm Capitalist Demo Walkthrough
+Worm Capitalist Profit Calculator
+Worm Capitalist Upgrade Checklist

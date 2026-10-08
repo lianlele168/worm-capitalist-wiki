@@ -88,7 +88,7 @@ export default function Header() {
           <div className="search-dialog">
             <div className="search-field-row">
               <Search className="h-5 w-5 shrink-0 text-lilac-700" />
-              <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search upgrades, rebirth, automation..." className="search-field" autoFocus />
+              <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search worksheet, observations, sources..." className="search-field" aria-label="Search pages" autoFocus />
               <button type="button" onClick={() => setSearchOpen(false)} className="icon-button border-0" aria-label="Close search"><X className="h-5 w-5" /></button>
             </div>
             <div className="search-results">

@@ -1,0 +1,12 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { site } from "@/data/site";
+export const metadata: Metadata = {
+  title: "Worm Capitalist Guide Corrections",
+  description: "Corrections to unsupported strategy claims in an earlier guide.",
+  alternates: { canonical: "/guides/" },
+  robots: { index: false, follow: true },
+};
+export default function GuidesPage() {
+  return <section className="page-section"><div className="page-shell article-body"><h1>Guide corrections</h1><p>The earlier strategy page included unverified upgrade names, numerical bonuses and reset thresholds. Those recommendations have been withdrawn. This page does not replace them with another untested optimal route.</p><h2>Use current evidence</h2><p>Check the <a href={site.officialUrl}>developer page</a> and <a href={site.steamUrl}>Steam listing</a> for published information. For decisions in your own run, record the displayed cost and result before comparing another purchase.</p><ul><li><Link href="/profit-calculator/">Measure an observed balance change</Link></li><li><Link href="/updates/">Read source checks and corrections</Link></li><li><Link href="/play/">Find the official demo</Link></li></ul></div></section>;
+}

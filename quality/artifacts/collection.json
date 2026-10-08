@@ -1,0 +1,117 @@
+{
+  "codeFingerprint": "5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472",
+  "checkedAt": "2026-10-08T16:29:41.835Z",
+  "routeInventoryArtifact": {
+    "path": "quality/artifacts/routes.json",
+    "sha256": "b4597fcdec598e9fb639b2df33f02a513f52d4db074d1f3eacbb5a7d26de7dfa"
+  },
+  "sitemapArtifact": {
+    "path": "quality/artifacts/sitemap.xml",
+    "sha256": "07eec7b597930332b8754a5322f8531680b31fb541a854eebed413e510c1498c"
+  },
+  "pages": [
+    {
+      "path": "/",
+      "title": "Worm Capitalist demo guide and measurement tools",
+      "renderedArtifact": {
+        "path": "quality/artifacts/home.html",
+        "sha256": "9d5bcd10b40fd70b0c9031e7f3343f68c72c2aacc53cb49ad5f5af32a4ba0c16"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/home-technical.json",
+        "sha256": "6be83997fa2b3563ced1f9f27cba64a00e1b30610cfcdd5bd720334f5ecbc22d"
+      },
+      "issues": {
+        "brokenLinks": [],
+        "consoleErrors": 0,
+        "overflow": []
+      }
+    },
+    {
+      "path": "/about/",
+      "title": "About and sources | Worm Capitalist Guide",
+      "renderedArtifact": {
+        "path": "quality/artifacts/about.html",
+        "sha256": "3b6033b1421866c130944999622a4e33922ff43e65f0f0e439e6b17753ce4d50"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/about-technical.json",
+        "sha256": "d35382f23a2aaac72460fce4819ec43bc52d03ee1f51ca302683962591020fce"
+      },
+      "issues": {
+        "brokenLinks": [],
+        "consoleErrors": 0,
+        "overflow": []
+      }
+    },
+    {
+      "path": "/privacy-policy/",
+      "title": "Privacy policy | Worm Capitalist Guide",
+      "renderedArtifact": {
+        "path": "quality/artifacts/privacy-policy.html",
+        "sha256": "9a38d967be44c10f8f810c530dbd606c2e26ed4b376805f73bebb511a2008eb9"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/privacy-policy-technical.json",
+        "sha256": "482ce26e0a75d7d9001b574711aa5de1872a544318e80e8946a4985eef94f890"
+      },
+      "issues": {
+        "brokenLinks": [],
+        "consoleErrors": 0,
+        "overflow": []
+      }
+    },
+    {
+      "path": "/profit-calculator/",
+      "title": "Worm Capitalist measurement worksheet | Worm Capitalist Guide",
+      "renderedArtifact": {
+        "path": "quality/artifacts/profit-calculator.html",
+        "sha256": "bf2765496683605114191c7cc8accfffe349a3b53f32d9386edb15da45723fd6"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/profit-calculator-technical.json",
+        "sha256": "0c2f94c92c2c7ec817a9921f1f0dae2eced6fd209b82574c93fa15b39cb7aad9"
+      },
+      "issues": {
+        "brokenLinks": [],
+        "consoleErrors": 0,
+        "overflow": []
+      }
+    },
+    {
+      "path": "/terms/",
+      "title": "Terms of use | Worm Capitalist Guide",
+      "renderedArtifact": {
+        "path": "quality/artifacts/terms.html",
+        "sha256": "6f58f124141d7e46e39a97b225e9cd387b1255abd14b3e6c650c46b027924a67"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/terms-technical.json",
+        "sha256": "06b886951fe60c97fa3af4a54a1ce11a8e70bcb919721f2e7fed7ec7b2644a9b"
+      },
+      "issues": {
+        "brokenLinks": [],
+        "consoleErrors": 0,
+        "overflow": []
+      }
+    },
+    {
+      "path": "/walkthrough/",
+      "title": "Worm Capitalist observation guide | Worm Capitalist Guide",
+      "renderedArtifact": {
+        "path": "quality/artifacts/walkthrough.html",
+        "sha256": "b7440146603e9fbce86956d09cb3de22a16af83f05c247b64fe4a20b1a2d3c26"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/walkthrough-technical.json",
+        "sha256": "9fdb5ef997904fa8f8c3ba32c49df14f1611427a8c3c66144364f2937f9ea8a3"
+      },
+      "issues": {
+        "brokenLinks": [],
+        "consoleErrors": 0,
+        "overflow": []
+      }
+    }
+  ],
+  "status": "pending-content-and-visual-review"
+}

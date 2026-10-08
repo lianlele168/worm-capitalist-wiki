@@ -1,0 +1,76 @@
+{
+  "path": "/bugs-fixes/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:18.428Z",
+  "testedUrl": "http://127.0.0.1:57392/bugs-fixes/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/bugs-fixes/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/bugs-fixes-390.png",
+        "sha256": "be3d18f28775567943928c2005db7b2751f34c93744931011963f761e3c100e0"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/bugs-fixes-768.png",
+        "sha256": "1783adfbf92cc6f1dc5ec8d0e48ae2214b0bf156bd4f4cb60335ec9bd7f56988"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/bugs-fixes-1024.png",
+        "sha256": "2080456e6bf744c43dd63e9050e3b1fb511996ec3374bfb06fbcac9b12ec6ad7"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/bugs-fixes-1440.png",
+        "sha256": "b7b4ba875651e93d572458474223dc8da3da9af03a31e6adb5ecbcd366604814"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

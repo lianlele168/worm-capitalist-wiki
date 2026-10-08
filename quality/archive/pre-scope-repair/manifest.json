@@ -1,0 +1,134 @@
+[
+  {
+    "path": "src/app/globals.css",
+    "sha256": "f64541315235d3415b4c73ee6e38cb6f2ee6643d040cd3a38b5319c1ea6cc28e"
+  },
+  {
+    "path": "src/app/layout.tsx",
+    "sha256": "3345d8a0eb0ccb21b78344fd72e4ccfa9c87a1ca2da628e28818b514c20ba8dc"
+  },
+  {
+    "path": "src/app/not-found.tsx",
+    "sha256": "70ce800d76e7d571ac5a5c919ce6649729781e6ac9faaad23f0cbd05deedf55c"
+  },
+  {
+    "path": "src/app/page.tsx",
+    "sha256": "637a60e39a7ec0ef10ed1f7e510c713b09744aedd96eb542c2ad837d83f6a3a8"
+  },
+  {
+    "path": "src/app/robots.ts",
+    "sha256": "45b3c3cf76df95542af71e98d55c4d8c62a72a1c199c1313c7d02aad0adc878a"
+  },
+  {
+    "path": "src/app/sitemap.ts",
+    "sha256": "a7dc2ba644090f823133a5cc00c68a51890a74bfb90c3fc813f6d05460dd1495"
+  },
+  {
+    "path": "src/app/calculator/page.tsx",
+    "sha256": "c019d9f49ec8f1e9cd463ef3e24bfcb44ab2f9665118d27375090f11b96203f3"
+  },
+  {
+    "path": "src/app/guides/page.tsx",
+    "sha256": "7e5afe26a6a1ad2ba9a7507d8ad1da1b0ac636ace80ac1759980bca3fe5b9c77"
+  },
+  {
+    "path": "src/app/[slug]/page.tsx",
+    "sha256": "c66fae1bdc4c408f460307e218e4c3b7f8179a4a685a65ccc6cb8739603d08f5"
+  },
+  {
+    "path": "src/components/AuthorCard.tsx",
+    "sha256": "13e8c91f874380b1f0430c30506280ac12cbec2b3b49fa55048eaffc85baf498"
+  },
+  {
+    "path": "src/components/Footer.tsx",
+    "sha256": "94f4f09238ca674133358b898308f2ad1de3b3dd36ae9e60a055017c8d8e7ac2"
+  },
+  {
+    "path": "src/components/Header.tsx",
+    "sha256": "26bcf972d492f2cb4e54254be583c6cf7bc3a874909bc607358b4e4eccafd491"
+  },
+  {
+    "path": "src/components/JsonLd.tsx",
+    "sha256": "1eb2912724e593c5060aae1d21c123bc8327e47a129e19fee645658c1cb36dfe"
+  },
+  {
+    "path": "src/components/PlayFrame.tsx",
+    "sha256": "fa6b1b5309c428b80aeb67a86096e9ff43c38aaf9bebf0501efd1e892515684c"
+  },
+  {
+    "path": "src/components/ProfitCalculator.tsx",
+    "sha256": "cfd5a3edb806073120087cca3e1d0723f417580347e6be19148ff0549bb8bdd5"
+  },
+  {
+    "path": "src/components/TaskDirectory.tsx",
+    "sha256": "5c75b49bc081c9d1cf2cf2bf4281aba6bf8fabce30da6d1273aa7cd4fbe12562"
+  },
+  {
+    "path": "src/components/TaskTracker.tsx",
+    "sha256": "c04f0da6b8cdbbe331c2b8d9d789d5fadf230a61d48ef0f04f6b2d5782f2059a"
+  },
+  {
+    "path": "src/data/pages.ts",
+    "sha256": "a735a9376ebf9a618444cd608c7bd55735d3e80bde07a7fab205370daea937c7"
+  },
+  {
+    "path": "src/data/site.ts",
+    "sha256": "443b16cb1c5b41e06c9a7bae54880b787c14071e3482a88bd31ab5633760c88a"
+  },
+  {
+    "path": "src/data/tasks.ts",
+    "sha256": "5c00aa3db3225b15aa520c53062f7fe023486d5f80650c051944b03995d3232a"
+  },
+  {
+    "path": "src/lib/date.ts",
+    "sha256": "17f5046cfc4d1c534722ae6676ab599fa5c0695254675437b0ec080571c8ad65"
+  },
+  {
+    "path": "src/lib/seo.ts",
+    "sha256": "73457399f18be423b11c64deeef45c47e2aafe322e6eadfe14c1dde58cdc76ca"
+  },
+  {
+    "path": "tests/smoke.spec.ts",
+    "sha256": "d32219520f63facf28fd1eb7d5b3b44c42ca82c32d0763f9bb084330ad2fdb8e"
+  },
+  {
+    "path": "public/cover.png",
+    "sha256": "0904dfe1f0e1d72e08a1f82b8dd2b98964645799beb741ed200a30ccc5ca98f3"
+  },
+  {
+    "path": "public/e593ab87140f4d389a62bc871234abcd.txt",
+    "sha256": "82569e0ca7f768ebeead7178e5ecf6716300f165c56845fe0b98baf8ab3fec81"
+  },
+  {
+    "path": "public/favicon.svg",
+    "sha256": "ceb3198f57864710f88646a73ed3460dc383c9809d4ed2bf55953e6ab57bb3ce"
+  },
+  {
+    "path": "public/feed-demo.gif",
+    "sha256": "18686bcf6a87b36802ebe4979a608f0bb793b5b35bba92d2185b28c97a9bc3d6"
+  },
+  {
+    "path": "public/screen-feed.jpg",
+    "sha256": "7f764c9ce48cd5879142a90ac641a9c254b320ca9fe33c82ceb07e5b4161aeb4"
+  },
+  {
+    "path": "public/screen-profit.jpg",
+    "sha256": "9fe500968c69e3853ac20f68e129a2bab9e81275431e1527efc5e2a44a643083"
+  },
+  {
+    "path": "public/screen-rebirth.jpg",
+    "sha256": "58f402b1a8afa4d6ef1535dfe2a20ee4815bab533213adf9d96305717a293393"
+  },
+  {
+    "path": "public/screen-skill-tree.jpg",
+    "sha256": "27336b9176a82b9d76e7eee3107361ee33d06eb4efbf19bd4f227339bb090ced"
+  },
+  {
+    "path": "public/screen-upgrades.jpg",
+    "sha256": "1c0ba7b52f5f03e5029f457c5fa8d7548848921f1bac3a771d6fdd722a293774"
+  },
+  {
+    "path": "public/skill-tree.gif",
+    "sha256": "91ee0b725976dfc06da7cbaba2be1a2d0788dc844a401987144a38f9493c2e64"
+  }
+]

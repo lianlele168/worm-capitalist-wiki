@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "codeFingerprint": "5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472",
+  "site": {
+    "baseUrl": "https://wormcapitalist.robloxwikihub.com/",
+    "officialUrl": "https://tikotey.itch.io/worm-capitalist",
+    "platform": "html5",
+    "releaseStatus": "released",
+    "identitySourceId": "itch",
+    "identityReview": {
+      "status": "supported",
+      "reviewer": "Codex agent",
+      "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+      "artifact": {
+        "path": "quality/artifacts/identity-review.md",
+        "sha256": "a39d7a092a0c0bdc4bcc35e12c290310c42666c121985d26056cb7b333274400"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "itch",
+      "kind": "official",
+      "url": "https://tikotey.itch.io/worm-capitalist",
+      "checkedAt": "2026-10-08T16:18:54.981331+00:00",
+      "artifact": {
+        "path": "quality/artifacts/sources/itch-current.html",
+        "sha256": "6901104ae282a3f6bb067004703a99180a3ca26f882f9e7dcef0c32697aedfcd"
+      }
+    },
+    {
+      "id": "steam",
+      "kind": "official",
+      "url": "https://store.steampowered.com/app/5073430/Worm_Capitalist/",
+      "checkedAt": "2026-10-08T16:18:56.360765+00:00",
+      "artifact": {
+        "path": "quality/artifacts/sources/steam-current.html",
+        "sha256": "4f106545647a831615c64dee9074873e0378199a3106bcc8b633b1653ddabf6e"
+      }
+    },
+    {
+      "id": "source-date",
+      "kind": "observation",
+      "url": "https://tikotey.itch.io/worm-capitalist",
+      "checkedAt": "2026-10-08T16:32:11.249656+00:00",
+      "artifact": {
+        "path": "quality/artifacts/sources/itch-current-capture.json",
+        "sha256": "8bc84fd70cf0b3dabb2f97fd5f975bad7b556466538d2ae08fc553480b3d5a69"
+      }
+    },
+    {
+      "id": "implementation",
+      "kind": "observation",
+      "url": "https://wormcapitalist.robloxwikihub.com/about/",
+      "checkedAt": "2026-10-08T16:32:11.249656+00:00",
+      "artifact": {
+        "path": "quality/artifacts/implementation-review.md",
+        "sha256": "6c9b25fdc07e22486ae81f9b61b1d9a885016d4828800e4cd9d82d660b9b0322"
+      }
+    },
+    {
+      "id": "interactions",
+      "kind": "observation",
+      "url": "https://wormcapitalist.robloxwikihub.com/profit-calculator/",
+      "checkedAt": "2026-10-08T16:32:11.249656+00:00",
+      "artifact": {
+        "path": "quality/artifacts/interaction-review.json",
+        "sha256": "704f6c97cb1e40778fb23b74077016e049cb794cff92daddf5350bc58e1b91e3"
+      }
+    },
+    {
+      "id": "identity",
+      "kind": "observation",
+      "url": "https://tikotey.itch.io/worm-capitalist",
+      "checkedAt": "2026-10-08T16:32:11.249656+00:00",
+      "artifact": {
+        "path": "quality/artifacts/identity-review.md",
+        "sha256": "a39d7a092a0c0bdc4bcc35e12c290310c42666c121985d26056cb7b333274400"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "game-identity",
+      "kind": "fact",
+      "statement": "Worm Capitalist is an incremental game by Tikotey.",
+      "sourceIds": [
+        "itch",
+        "steam"
+      ],
+      "support": "itch title and Author table; Steam title/developer and About This Game.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "demo-scope",
+      "kind": "fact",
+      "statement": "Available early demo has HTML5/Windows listing; Steam provides a demo while full game remains unreleased.",
+      "sourceIds": [
+        "itch",
+        "steam",
+        "identity"
+      ],
+      "support": "itch Run game/download and Platforms table; Steam Download Demo and full-game not-yet-available statement. releaseStatus refers to demo, not full Steam title.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "publisher",
+      "kind": "fact",
+      "statement": "Ivy Juice is the Steam-listed publisher.",
+      "sourceIds": [
+        "steam"
+      ],
+      "support": "Developer/publisher store metadata: Tikotey/Ivy Juice.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "feature-overview",
+      "kind": "fact",
+      "statement": "Developer describes feeding/collecting, upgrades, Colony Points, workers and reset rewards.",
+      "sourceIds": [
+        "itch",
+        "steam"
+      ],
+      "support": "Official feature headings/paragraphs from Feed the worms through Start again. Grow stronger. Website attributes the overview; no exact table/completeness/playtest inference.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "source-date",
+      "kind": "date",
+      "statement": "Codex read the official listings on 8 October 2026 UTC.",
+      "sourceIds": [
+        "source-date"
+      ],
+      "support": "Capture checkedAt=2026-10-08; current date is not automatically substituted into metadata.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "authorship",
+      "kind": "fact",
+      "statement": "Independent AI-assisted site under Hlele, with lianlele168@gmail.com corrections contact and no affiliation.",
+      "sourceIds": [
+        "implementation"
+      ],
+      "support": "Workspace identity plus archived existing contact; separate agent review scope. No fabricated human experience.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "review-scope",
+      "kind": "verification",
+      "statement": "Codex reviewed official sources and the local site layout, content, interactions and arithmetic, without claiming game play.",
+      "sourceIds": [
+        "implementation",
+        "interactions"
+      ],
+      "support": "Actual source captures, six-route screenshots, 17-case Chrome test report and four calibration observations. Parent review remains separate.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "editorial-routine",
+      "kind": "fact",
+      "statement": "Observation routine is editorial advice, not game achievements or fastest-route testing.",
+      "sourceIds": [
+        "implementation"
+      ],
+      "support": "Read walkthrough text: one changed condition, exact displayed descriptions, version notes, unknowns left unknown. Suggestions have no claimed numeric effect.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "worksheet-formula",
+      "kind": "formula",
+      "statement": "Net rate=(ending-starting)/minutes; receipts=(ending-starting+spending)/minutes; comparison=run2 net-run1 net.",
+      "sourceIds": [
+        "implementation",
+        "interactions"
+      ],
+      "support": "Accounting identity end=start+receipts-spending under disclosed inputs; implementation read and browser outputs independently compared to hand-computed synthetic examples.",
+      "method": "Reconstruct receipts by adding recorded spending to balance change, divide each by elapsed minutes, then subtract first net rate from second. JavaScript finite range checked; display rounds to at most 2 decimal places. This is user-entered interval accounting, not a game mechanism.",
+      "units": "Balances/spending: same game balance unit; elapsed time: minutes; outputs: those units per minute. Not real-world currency.",
+      "assumptions": "All spending recorded; same units and comparable version/conditions; exclude resets, refunds, transfers, one-off rewards and unrecorded purchases. Observed comparison is not causality or a future prediction.",
+      "calibration": [
+        {
+          "input": {
+            "minutes": 2,
+            "start": 100,
+            "end": 160,
+            "spending": 20
+          },
+          "expected": 30,
+          "observed": 30,
+          "locator": "run-1-result net"
+        },
+        {
+          "input": {
+            "minutes": 2,
+            "start": 100,
+            "end": 160,
+            "spending": 20
+          },
+          "expected": 40,
+          "observed": 40,
+          "locator": "run-1-result receipts"
+        },
+        {
+          "input": {
+            "run1Net": 30,
+            "run2Net": 20
+          },
+          "expected": -10,
+          "observed": -10,
+          "locator": "comparison status"
+        },
+        {
+          "input": {
+            "minutes": 2,
+            "start": 100,
+            "end": 80,
+            "spending": 30
+          },
+          "expected": 5,
+          "observed": 5,
+          "locator": "run-1-result receipts"
+        }
+      ],
+      "calibrationArtifact": {
+        "path": "quality/artifacts/interaction-review.json",
+        "sha256": "704f6c97cb1e40778fb23b74077016e049cb794cff92daddf5350bc58e1b91e3"
+      },
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "worked-example",
+      "kind": "number",
+      "statement": "Synthetic example 100→160 with 20 spent over 2 min yields net30/receipts40; 100→140 with 0 spent over 2 min yields20, difference-10.",
+      "sourceIds": [
+        "interactions"
+      ],
+      "support": "Current Chrome input values and visible outputs in calibration records; publicly labeled invented worksheet inputs, not game results.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "worksheet-validation",
+      "kind": "fact",
+      "statement": "Blank, invalid, inconsistent or overflow values show an explanation; inputs clear on reload and can be cleared manually.",
+      "sourceIds": [
+        "implementation",
+        "interactions"
+      ],
+      "support": "Tests 1–7 and component measure(); no fabricated defaults, rates or saved state.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "checklist",
+      "kind": "number",
+      "statement": "Five editorial observation checks can be toggled, filtered, reset, persisted locally and copied; progress percentage counts these checks.",
+      "sourceIds": [
+        "implementation",
+        "interactions"
+      ],
+      "support": "Actual five task data entries, UI 0/5–5/5 and count-derived ring; tests cover reload, filter/empty, all/reset, copy, corrupt/denied storage. Not game progress.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "privacy",
+      "kind": "fact",
+      "statement": "Checklist IDs stored locally; worksheet page state; app sends neither to a server; no auth/ads/analytics or game embed in this build.",
+      "sourceIds": [
+        "implementation",
+        "interactions"
+      ],
+      "support": "Read application imports/components and current export; no external browser requests in collector. Hosting/external-link limitations are disclosed.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    },
+    {
+      "id": "tool-limitations",
+      "kind": "fact",
+      "statement": "Worksheet has no game rates, costs, skill effects, offline-earnings model or reset threshold and does not predict an optimal outcome.",
+      "sourceIds": [
+        "implementation"
+      ],
+      "support": "Current tool accepts only four values per run, no game dataset/model; textual limitations correspond to implementation.",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": "ready",
+      "intent": "Identify the actual demo and choose a practical task",
+      "uniqueValue": "Two current official entry points, release/platform distinction and clear paths into tools.",
+      "indexable": true,
+      "claimIds": [
+        "game-identity",
+        "authorship",
+        "privacy",
+        "demo-scope",
+        "feature-overview",
+        "source-date",
+        "worksheet-validation",
+        "checklist"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/home.html",
+        "sha256": "9d5bcd10b40fd70b0c9031e7f3343f68c72c2aacc53cb49ad5f5af32a4ba0c16"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/home-technical.json",
+        "sha256": "4dead3770ea2b6340f9ea89ce8eeee0a8d49502d4220cf8606a1f0c4556e48a5"
+      }
+    },
+    {
+      "path": "/about/",
+      "status": "ready",
+      "intent": "Inspect author, sources and review boundaries",
+      "uniqueValue": "Actual UTC source date, official links, honest agent/gameplay distinction and correction contact.",
+      "indexable": false,
+      "claimIds": [
+        "game-identity",
+        "authorship",
+        "privacy",
+        "demo-scope",
+        "publisher",
+        "source-date",
+        "review-scope",
+        "editorial-routine",
+        "tool-limitations"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/about.html",
+        "sha256": "3b6033b1421866c130944999622a4e33922ff43e65f0f0e439e6b17753ce4d50"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/about-technical.json",
+        "sha256": "8831c674dcfc976d144422f1cc2841aeabfef209107d831fc3b962feab0511b0"
+      }
+    },
+    {
+      "path": "/privacy-policy/",
+      "status": "ready",
+      "intent": "Understand and clear browser data",
+      "uniqueValue": "Specific key, reset behavior, corrupt-storage preservation and distinction from page-only inputs.",
+      "indexable": false,
+      "claimIds": [
+        "game-identity",
+        "authorship",
+        "privacy",
+        "worksheet-validation",
+        "checklist"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/privacy-policy.html",
+        "sha256": "9a38d967be44c10f8f810c530dbd606c2e26ed4b376805f73bebb511a2008eb9"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/privacy-policy-technical.json",
+        "sha256": "383b43e31f18565d425da080f4de552242b3a6f2ee1cd84d2ed0a20e0d9ae54a"
+      }
+    },
+    {
+      "path": "/profit-calculator/",
+      "status": "ready",
+      "intent": "Compare personally measured intervals",
+      "uniqueValue": "Working two-run worksheet with unit/assumption explanation, hand-calibrated arithmetic and invalid-state handling.",
+      "indexable": true,
+      "claimIds": [
+        "game-identity",
+        "authorship",
+        "privacy",
+        "worksheet-formula",
+        "worked-example",
+        "worksheet-validation",
+        "tool-limitations"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/profit-calculator.html",
+        "sha256": "bf2765496683605114191c7cc8accfffe349a3b53f32d9386edb15da45723fd6"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/profit-calculator-technical.json",
+        "sha256": "56c7fffb503151796e8037b7b10def75baccc25e55f54220acc732157b6cec28"
+      },
+      "tool": {
+        "type": "user-estimator",
+        "formulaClaimId": "worksheet-formula",
+        "limitations": "Interval accounting only; user-supplied balance units, complete spending and positive minutes. No game prediction or causal upgrade ranking.",
+        "validation": "Actual Chrome positive/negative/zero/missing/inconsistent/overflow inputs and four numeric calibration outputs; quality/artifacts/interaction-review.json."
+      }
+    },
+    {
+      "path": "/terms/",
+      "status": "ready",
+      "intent": "Understand reference and tool scope",
+      "uniqueValue": "Plain scope and ownership notice without fabricated license, legal-compliance or outcome guarantees.",
+      "indexable": false,
+      "claimIds": [
+        "game-identity",
+        "authorship",
+        "privacy",
+        "editorial-routine",
+        "tool-limitations"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/terms.html",
+        "sha256": "6f58f124141d7e46e39a97b225e9cd387b1255abd14b3e6c650c46b027924a67"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/terms-technical.json",
+        "sha256": "0117a4d58410ffb34d7b37269e8a01a4f5bcf6bd1d961bc6151b20b4cd9f36ba"
+      }
+    },
+    {
+      "path": "/walkthrough/",
+      "status": "ready",
+      "intent": "Make repeatable notes before a purchase or reset",
+      "uniqueValue": "Single actionable observation method with version/template notes and persistent five-check progress; not isolated thin mechanism pages.",
+      "indexable": true,
+      "claimIds": [
+        "game-identity",
+        "authorship",
+        "privacy",
+        "feature-overview",
+        "editorial-routine",
+        "checklist",
+        "tool-limitations"
+      ],
+      "claimCoverage": "complete",
+      "crossPageConsistency": "passed",
+      "review": {
+        "status": "supported",
+        "reviewer": "Codex agent — scope repair",
+        "reviewedAt": "2026-10-08T16:32:11.249656+00:00",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "a0182a5c3b4781d70e4e94ca095e7f85409deb8d8c1ce887e4a88e6c03b8a634"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/walkthrough.html",
+        "sha256": "b7440146603e9fbce86956d09cb3de22a16af83f05c247b64fe4a20b1a2d3c26"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/walkthrough-technical.json",
+        "sha256": "68769f2a0625e20ed18a46f69872eee5856c90a521759217986418ba2b82176e"
+      }
+    }
+  ],
+  "routeInventoryArtifact": {
+    "path": "quality/artifacts/routes.json",
+    "sha256": "b4597fcdec598e9fb639b2df33f02a513f52d4db074d1f3eacbb5a7d26de7dfa"
+  },
+  "sitemapPaths": [
+    "/",
+    "/profit-calculator/",
+    "/walkthrough/"
+  ],
+  "sitemapArtifact": {
+    "path": "quality/artifacts/sitemap.xml",
+    "sha256": "07eec7b597930332b8754a5322f8531680b31fb541a854eebed413e510c1498c"
+  },
+  "skillRunArtifact": {
+    "path": "quality/skill-run.md",
+    "sha256": "e4f7e9e2560f98a77242321128f0535192572ea0076247dd36ed48ad870ab8c8"
+  },
+  "buildArtifact": {
+    "path": "quality/artifacts/build.log",
+    "sha256": "0b8096a19e3472d6e24e34cc680ff21c83805da696a2281b8b9eac1832b8d149"
+  },
+  "buildStatus": "passed",
+  "unresolved": []
+}

@@ -1,0 +1,77 @@
+{
+  "path": "/guides/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:22.087Z",
+  "testedUrl": "http://127.0.0.1:57392/guides/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/guides/",
+  "robotsAllowed": true,
+  "indexAllowed": false,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist",
+    "https://store.steampowered.com/app/5073430/Worm_Capitalist/"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/guides-390.png",
+        "sha256": "8fd38b6db503437257622e03437daefa81f9b34527d046a9cd2e491d6b3efad9"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/guides-768.png",
+        "sha256": "17c9845156404b9105b2679315664b9b858ad44940d275f65f651e41f599a660"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/guides-1024.png",
+        "sha256": "4185f870e01c3f2e56afa167f0b97fb25e81806051c0e80026aaad1917add582"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/guides-1440.png",
+        "sha256": "9f912bc35b716001b864540ada76bfebf27ba286166fc37b83ba86ffe6c7ce0c"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

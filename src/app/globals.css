@@ -1970,3 +1970,11 @@ p {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Scoped reference pages; all visual decoration is CSS, not game art. */
+.content-column{max-width:960px;margin-inline:auto}.home-evidence{max-width:850px;margin-top:72px;padding-top:32px;border-top:1px solid var(--line)}
+.home-evidence a,.article-body a{text-decoration:underline;color:var(--lilac-dark)}
+.tracker-task p{white-space:normal;overflow:visible;text-overflow:clip}.tracker-task{padding-block:16px}.tracker-task.done strong{text-decoration:line-through}
+.calculator-head{flex-wrap:wrap}.calculator-head>.btn-secondary{padding-block:12px}.compact-hero .btn-primary,.compact-hero .btn-secondary{padding-block:12px;line-height:1.35}
+body{overflow-x:visible}.content-column p,.content-column input{overflow-wrap:anywhere}
+@media(max-width:460px){.brand-name{max-width:none;font-size:16px}}

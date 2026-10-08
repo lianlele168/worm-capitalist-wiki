@@ -1,0 +1,11 @@
+Guide corrections
+
+The earlier strategy page included unverified upgrade names, numerical bonuses and reset thresholds. Those recommendations have been withdrawn. This page does not replace them with another untested optimal route.
+
+Use current evidence
+
+Check the developer page and Steam listing for published information. For decisions in your own run, record the displayed cost and result before comparing another purchase.
+
+Measure an observed balance change
+Read source checks and corrections
+Find the official demo

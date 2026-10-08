@@ -1,0 +1,20 @@
+{
+  "name": "worm-capitalist-wiki",
+  "gateVersion": 2,
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    "Review source authenticity, claim support, calibration correctness and inventory completeness manually. Self-authored records are not independent proof."
+  ],
+  "checks": {
+    "fingerprint": {
+      "sha256": "5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472",
+      "files": 27
+    },
+    "pages": 6,
+    "claims": 14,
+    "sources": 6,
+    "artifacts": 23
+  },
+  "limitation": "Checks evidence completeness and recorded results; cannot certify fact truth, actual execution or Google indexing."
+}

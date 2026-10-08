@@ -1,0 +1,44 @@
+Home
+/
+Worm Capitalist Rebirth Guide
+
+READ THE RESET PREVIEW
+
+Worm Capitalist Rebirth Guide
+
+Check the reset preview before discarding a run.
+
+Official game
+Checklist
+MILESTONE
+4 of 5
+AREA
+Your observation
+NEEDED
+Current reset dialog
+RESULT
+Known consequences
+Published feature
+
+The developer describes resetting the colony for permanent upgrades. The current reward formula and exact retained resources have not been verified here.
+
+Before confirming
+
+Record what the current reset dialog says will be lost and retained. Do not assume a reward from a number shown in an older guide. If the dialog is unclear, consult the developer before confirming.
+
+Correction
+
+Previous claims about a fixed multiplier threshold, mutation tokens and an optimal cash target were not supported by evidence. They have been removed.
+
+SOURCE SCOPE
+
+Dated public-source review
+
+See Updates & Sources for the 8 October 2026 public-page review and remaining gaps. No in-game playtest is claimed.
+
+CONTINUE
+
+Worm Capitalist Automation Guide
+Worm Capitalist Controls
+Worm Capitalist Bugs and Fixes
+Worm Capitalist Steam Demo

@@ -1,0 +1,12 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import ProfitCalculator from "@/components/ProfitCalculator";
+export const metadata: Metadata = {
+  title: "Worm Capitalist Observed Income Worksheet",
+  description: "Compare recorded balance changes from two sessions using your own measurements.",
+  alternates: { canonical: "/calculator/" },
+  robots: { index: false, follow: true },
+};
+export default function CalculatorPage() {
+  return <section className="page-section"><div className="page-shell"><h1>Observed income worksheet</h1><p>This older calculator address contains the same worksheet as the <Link className="text-link" href="/profit-calculator/">main income tool</Link>.</p><ProfitCalculator /></div></section>;
+}

@@ -1,0 +1,76 @@
+{
+  "path": "/calculator/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:19.723Z",
+  "testedUrl": "http://127.0.0.1:57392/calculator/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/calculator/",
+  "robotsAllowed": true,
+  "indexAllowed": false,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/calculator-390.png",
+        "sha256": "527d1974bd574b5d566b23aadb98ec253836eb26dd7c6b76d2683014bcffba1a"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/calculator-768.png",
+        "sha256": "428da0c14c303dc44405e761075f3ad0080d4adbcbd642fa368618cf6eed9f3e"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/calculator-1024.png",
+        "sha256": "0803075084277c6fb28295185c9a75b47829ce107fae42c288bc9cb545ecbba7"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/calculator-1440.png",
+        "sha256": "5093321c1a852f24b1a2868a414baede7e31c27f9da24b069f9433dd44bf3b94"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

@@ -1,0 +1,44 @@
+Home
+/
+Worm Capitalist Skill Tree Guide
+
+CHECK YOUR CURRENT BUILD
+
+Worm Capitalist Skill Tree Guide
+
+Use the displayed skill descriptions when planning a purchase.
+
+Official game
+Checklist
+MILESTONE
+3 of 5
+AREA
+Your observation
+NEEDED
+Current skill panel
+RESULT
+Documented decision
+Published feature
+
+The official description links Colony Points with abilities, upgrades and workers. It does not give us a complete current node table or a tested optimum.
+
+Before spending
+
+Record the node name, cost, prerequisites and exact description. Check whether the effect applies immediately or only under stated conditions. If a description is ambiguous, leave the expected gain unknown.
+
+Missing evidence
+
+We have not verified every skill, point-earning rule or worker effect in the current demo. We do not recommend a specific node order.
+
+SOURCE SCOPE
+
+Dated public-source review
+
+See Updates & Sources for the 8 October 2026 public-page review and remaining gaps. No in-game playtest is claimed.
+
+CONTINUE
+
+Worm Capitalist Rebirth Guide
+Worm Capitalist Automation Guide
+Worm Capitalist Controls
+Worm Capitalist Bugs and Fixes

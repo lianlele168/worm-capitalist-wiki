@@ -1,0 +1,76 @@
+{
+  "path": "/upgrade-checklist/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:35.002Z",
+  "testedUrl": "http://127.0.0.1:57392/upgrade-checklist/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/upgrade-checklist/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/upgrade-checklist-390.png",
+        "sha256": "88bf41b9ce0f27339a1bef090bfc0805db2a1c739315dafe53d120a1d0e427dc"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/upgrade-checklist-768.png",
+        "sha256": "0726e4661cc6c69e768ba662b36392119975cd553cfba5e50a02763c7ac289b7"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/upgrade-checklist-1024.png",
+        "sha256": "f3caf91de28f805f412d8874f442f4d641c6b5f05321ab2e5a780a3b0925489c"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/upgrade-checklist-1440.png",
+        "sha256": "136c5c9541ec4a59b4b11f6f19fe25f453312f9c42fc448b76d69d006274dfe1"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

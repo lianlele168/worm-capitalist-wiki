@@ -1,0 +1,32 @@
+INDEPENDENT DEMO COMPANION
+
+Worm Capitalist.
+Observe before you upgrade.
+
+Find Tikotey’s official demo, compare your own measured income, and keep track of what you have checked.
+
+Open developer demo page ↗
+Steam demo & game page ↗
+
+01 / MEASURE
+
+What changed in your session?
+
+Enter starting and ending balances, spending and elapsed time. Compare net change and receipts per minute across two observations.
+
+Open measurement worksheet →
+
+02 / OBSERVE
+
+Make your next decision traceable.
+
+A single routine for recording a baseline, comparing a purchase, and reading skill or reset consequences. Save your checklist progress in this browser.
+
+Open observation guide →
+Which game is this?
+
+Worm Capitalist is Tikotey’s incremental game. The itch.io listing provides an HTML5/Windows early demo; the Steam listing offers a demo while the full game remains unreleased. This guide concerns that demo.
+
+The developer describes feeding worms, collecting resources, improving production, spending Colony Points, unlocking workers and resetting for permanent upgrades. Those descriptions are an overview, not a verified table of every demo feature or value.
+
+Sources checked 8 October 2026 (UTC): developer’s itch.io page and Steam listing. Read the source and review notes.

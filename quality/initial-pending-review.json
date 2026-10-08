@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "site": {
+    "baseUrl": "https://wormcapitalist.robloxwikihub.com",
+    "officialUrl": "https://tikotey.itch.io/worm-capitalist",
+    "platform": "html5",
+    "releaseStatus": "unknown",
+    "identitySourceId": "itch",
+    "identityReview": {
+      "status": "pending",
+      "reviewer": "Codex agent",
+      "reviewedAt": "2026-10-08T15:21:37.703Z",
+      "artifact": {
+        "path": "quality/content-review.md",
+        "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "itch",
+      "url": "https://tikotey.itch.io/worm-capitalist",
+      "kind": "official",
+      "checkedAt": "2026-10-08T15:23:20.561Z",
+      "artifact": {
+        "path": "quality/artifacts/sources/itch.html",
+        "sha256": "8e8e2430cd5ca9122b1d1c740997c1724d72bd5b63b32e33e063b403741fdfd8"
+      }
+    },
+    {
+      "id": "steam",
+      "url": "https://store.steampowered.com/app/5073430/Worm_Capitalist/",
+      "kind": "official",
+      "checkedAt": "2026-10-08T15:23:20.630Z",
+      "artifact": {
+        "path": "quality/artifacts/sources/steam.html",
+        "sha256": "7fa9522cae883891529099fc5dd36c8492de9e23bf99242c4de6ce23650fc1cd"
+      }
+    }
+  ],
+  "claims": [],
+  "pages": [
+    {
+      "path": "/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/home.html",
+        "sha256": "460312bbb2c50ada2c18d312ea9a301ed5f53438f5c3e07c95dd5363792cb33e"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/home-technical.json",
+        "sha256": "e65ddc759665cfcfa7110c1387df3a8d3b7d6788d9e51bfbde072d934f6709b0"
+      }
+    },
+    {
+      "path": "/about/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/about.html",
+        "sha256": "e987711c09ef6606807323d926f3ee5e4ae04b810e1ae017de7952d100f6dbe7"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/about-technical.json",
+        "sha256": "b001c96c7dba4d9547cd8af4ec8e464bdf5ad0fa6147e561eb413bd23bdc7e56"
+      }
+    },
+    {
+      "path": "/automation/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/automation.html",
+        "sha256": "a632dc50a1cf0f610e30de22054673d72e8efdc57b0291913abc8708e4c39329"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/automation-technical.json",
+        "sha256": "793d32f093e0aac25400f035414b08ade52fb80024e89b3d82fdc99545655417"
+      }
+    },
+    {
+      "path": "/bugs-fixes/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/bugs-fixes.html",
+        "sha256": "dd4f4525cf0fc6c39083516ba91f4c189e91b70d427d2ab852814d0a7b8a32df"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/bugs-fixes-technical.json",
+        "sha256": "9141dfae524a54465488553d6513744a0e0addf81e021ff0ff210dba60e18fef"
+      }
+    },
+    {
+      "path": "/calculator/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": false,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/calculator.html",
+        "sha256": "b75e4115021ac5c9b5d0c29f14510f368847b46a1f945ba4e79f1fe67681eb55"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/calculator-technical.json",
+        "sha256": "066469924f2eb0e7c92000a1b7d4d4411705194316c547a64791b0e439ef744b"
+      }
+    },
+    {
+      "path": "/controls/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/controls.html",
+        "sha256": "cc5ced69dd116812809dc06a9badc4b552dfa6d4f69bdd60067e45dce88154bf"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/controls-technical.json",
+        "sha256": "f3566d846ac9cf17b52f246634557d6573ee7f1ca156f5ffe66c53382d77193f"
+      }
+    },
+    {
+      "path": "/guides/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": false,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/guides.html",
+        "sha256": "10c4bf4834d183838403a8b155cd6d74d1f7c6b39dd30898417078299288bce9"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/guides-technical.json",
+        "sha256": "4ef2d500cd4f3221077043f4fb1ead1e538b495a8254eb072e419e5a40bd036a"
+      }
+    },
+    {
+      "path": "/play/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/play.html",
+        "sha256": "b47068b8bb2ae28c3f85f52022d165f6068c0fe69ea91b217b0dce03be3fcffc"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/play-technical.json",
+        "sha256": "649d369cd8c4ac56166e586d6cbcb7da40a77b7c413326215152ade490927027"
+      }
+    },
+    {
+      "path": "/privacy-policy/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": false,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/privacy-policy.html",
+        "sha256": "cd8bdc5467fb9f3c4e5397c1c5eded4b0a7fc7ed6a12f9944f5a50b6254ebcfb"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/privacy-policy-technical.json",
+        "sha256": "13b0a279d685626b447acadd6dff2bc5cba6f3055d4c1555f61812d6a8be6d7e"
+      }
+    },
+    {
+      "path": "/profit-calculator/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/profit-calculator.html",
+        "sha256": "056388e91b4695c48bcee41d47219a3eb73a9dd6132beef2ce164e5497fe2070"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/profit-calculator-technical.json",
+        "sha256": "1079b5dabe89412bffd1ca6970f51d74e0a27b6dc3cea679186289215f800c5b"
+      }
+    },
+    {
+      "path": "/rebirth/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/rebirth.html",
+        "sha256": "c87ff5b88b56b145705d3f1da1aa8583dabf0192602d928bbea5bb2bb170f8dd"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/rebirth-technical.json",
+        "sha256": "3c83c90a933120e4496737d10030c39d4d93674f4478858c06494d8e747a7e78"
+      }
+    },
+    {
+      "path": "/skill-tree/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/skill-tree.html",
+        "sha256": "bc788487a43fcfb1ede850a3ac9a0331b01eb748cdb4fa10c29284f14a4c45c4"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/skill-tree-technical.json",
+        "sha256": "e029b2b7fc8589059caad3aceab91cc0a72f654917e0da7aedd1a490a828bf9c"
+      }
+    },
+    {
+      "path": "/steam-demo/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/steam-demo.html",
+        "sha256": "af1cc5763d6a39e6f95f24a2364ce197c8729bbacbac9952b496a143361e040f"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/steam-demo-technical.json",
+        "sha256": "4f60e1c58dc73a91d1b1c042ab5b807497046e2d6638597f1bd699e2b425a209"
+      }
+    },
+    {
+      "path": "/terms/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": false,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/terms.html",
+        "sha256": "ed5a75f29301885184a6c9b96ca3d6da4f8646e4476cc22d2e875bd185c14399"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/terms-technical.json",
+        "sha256": "5b7fadc1d080b42567271fc11aa4755704eaa3927512ec39fdb837118882acc0"
+      }
+    },
+    {
+      "path": "/updates/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/updates.html",
+        "sha256": "0469d0899f0b8df2e2bc389a37224991d2d315e26105bc9f2c2f607a8108412d"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/updates-technical.json",
+        "sha256": "afbfbbf051fff71e277c061ccdbb1d449296092d363829da61c616605b508d47"
+      }
+    },
+    {
+      "path": "/upgrade-checklist/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/upgrade-checklist.html",
+        "sha256": "8be5a76a53154a7b6446ef948c4c9550163ee735627985bd7a5e181256485e6b"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/upgrade-checklist-technical.json",
+        "sha256": "7c8dbf9ff6eaa15af52da52e847cf3a068a06737f9d72e086b96064da36fa972"
+      }
+    },
+    {
+      "path": "/upgrades/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/upgrades.html",
+        "sha256": "0fb7ee63a94e9ba284984b30be5c41e4803841eb5da776c6818ac819a17c75df"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/upgrades-technical.json",
+        "sha256": "4d1b28ec9c23d3f44c0284a59e2c055461ece7b296ef51d9f9f2db294bc7755b"
+      }
+    },
+    {
+      "path": "/walkthrough/",
+      "status": "pending",
+      "intent": "待逐页确认实际玩家需求",
+      "uniqueValue": "待审查；不能由模板或字数推断",
+      "indexable": true,
+      "claimIds": [],
+      "claimCoverage": "incomplete",
+      "crossPageConsistency": "pending",
+      "review": {
+        "status": "pending",
+        "reviewer": "Codex agent",
+        "reviewedAt": "2026-10-08T15:21:37.703Z",
+        "artifact": {
+          "path": "quality/content-review.md",
+          "sha256": "e28a91dde883b4c73b254fc695c744c0ba05a4e21619599bf82a74409afd4313"
+        }
+      },
+      "renderedArtifact": {
+        "path": "quality/artifacts/walkthrough.html",
+        "sha256": "6b0811f6cef4a48d593f4f9489d85bf23eab4080bbc4f4d89aa78062ae32718f"
+      },
+      "technicalArtifact": {
+        "path": "quality/artifacts/walkthrough-technical.json",
+        "sha256": "124082b72ba71875fd1683adb71c54950736693fd23b1a7c2efab6fa92567c10"
+      }
+    }
+  ],
+  "routeInventoryArtifact": {
+    "path": "quality/artifacts/routes.json",
+    "sha256": "7a74dded1026a27a3ca69b7eb9e4ebf33807567dd4c55180e8be0001ff08fe12"
+  },
+  "sitemapPaths": [
+    "/",
+    "/play/",
+    "/walkthrough/",
+    "/profit-calculator/",
+    "/upgrade-checklist/",
+    "/upgrades/",
+    "/skill-tree/",
+    "/rebirth/",
+    "/automation/",
+    "/controls/",
+    "/bugs-fixes/",
+    "/steam-demo/",
+    "/updates/",
+    "/about/"
+  ],
+  "sitemapArtifact": {
+    "path": "quality/artifacts/sitemap.xml",
+    "sha256": "ae1aaa11af1a739f51c9236fb278bb6afffea021bf31874796e8956ea2f0dbf9"
+  },
+  "skillRunArtifact": {
+    "path": "quality/skill-run.md",
+    "sha256": "ffa744486dc5967e915e1b5af72e19c0e2583bcf0573d89b4931b2a8388a690e"
+  },
+  "buildArtifact": {
+    "path": "quality/artifacts/build.log",
+    "sha256": "eca4a829313e51504eae56990db14d830bb4e236aad1db7f5924ab0eeb91c8a4"
+  },
+  "buildStatus": "passed",
+  "unresolved": [
+    "逐页完成声明与来源对应、图片使用来源和外链检查",
+    "决定多个简短机制页是否合并；撤回错误不等于提供足够独有价值",
+    "确认当前官方试玩入口及游戏内行为；目前未做游戏实测",
+    "完成逐页证据、视觉与交互审查后再更新状态；禁止将pending批量改为supported"
+  ]
+}

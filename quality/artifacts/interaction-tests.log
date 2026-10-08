@@ -1,0 +1,72 @@
+
+[WebServer] (node:80156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:57420) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[WebServer] (node:59772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 2 workers
+
+
+(node:79368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+(node:81276) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/14] [desktop] › tests\smoke.spec.ts:21:5 › home, search, images, and responsive width work
+[2/14] [mobile] › tests\smoke.spec.ts:21:5 › home, search, images, and responsive width work
+[3/14] [desktop] › tests\smoke.spec.ts:48:5 › calculator updates and checklist saves progress
+
+[WebServer] (node:67300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[4/14] [mobile] › tests\smoke.spec.ts:48:5 › calculator updates and checklist saves progress
+[WebServer] (node:48776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[5/14] [desktop] › tests\smoke.spec.ts:76:5 › guide routes render with the intended indexing policy
+
+[WebServer] (node:15980) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[6/14] [mobile] › tests\smoke.spec.ts:76:5 › guide routes render with the intended indexing policy
+
+[WebServer] (node:79840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[WebServer] (node:73672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[WebServer] (node:50940) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[WebServer] (node:78972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[7/14] [desktop] › tests\smoke.spec.ts:85:5 › sitemap, robots, schema, and canonicals are present
+
+[WebServer] (node:81552) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[8/14] [mobile] › tests\smoke.spec.ts:85:5 › sitemap, robots, schema, and canonicals are present
+
+[WebServer] (node:45424) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[9/14] [desktop] › tests\smoke.spec.ts:109:5 › official browser game frame is connected
+
+[WebServer] (node:73672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[10/14] [mobile] › tests\smoke.spec.ts:109:5 › official browser game frame is connected
+[11/14] [mobile] › tests\smoke.spec.ts:118:5 › checklist survives blocked browser storage and clipboard
+
+[WebServer] (node:28840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[12/14] [mobile] › tests\smoke.spec.ts:131:5 › legacy routes disclose corrections and do not expose invented mechanics
+[13/14] [desktop] › tests\smoke.spec.ts:118:5 › checklist survives blocked browser storage and clipboard
+[WebServer] (node:80664) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[14/14] [desktop] › tests\smoke.spec.ts:131:5 › legacy routes disclose corrections and do not expose invented mechanics
+  1 skipped
+  13 passed (38.2s)

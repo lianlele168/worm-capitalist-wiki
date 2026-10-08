@@ -1,0 +1,27 @@
+{
+  "retiredPaths": [
+    "/automation/",
+    "/bugs-fixes/",
+    "/calculator/",
+    "/controls/",
+    "/guides/",
+    "/play/",
+    "/rebirth/",
+    "/skill-tree/",
+    "/steam-demo/",
+    "/updates/",
+    "/upgrade-checklist/",
+    "/upgrades/"
+  ],
+  "currentPaths": [
+    "/",
+    "/about/",
+    "/privacy-policy/",
+    "/profit-calculator/",
+    "/terms/",
+    "/walkthrough/"
+  ],
+  "httpStatus": 404,
+  "checkedAt": "2026-10-08T16:31:58.645Z",
+  "scope": "Local current static export; deployed host must be rechecked."
+}

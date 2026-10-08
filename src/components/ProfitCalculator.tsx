@@ -1,75 +1,46 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { Calculator, RotateCcw } from "lucide-react";
+import { useState } from "react";
 
-function money(value: number) {
-  return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 }).format(value);
+type Run = { minutes: string; start: string; end: string; spending: string };
+const empty: Run = { minutes: "", start: "", end: "", spending: "" };
+const fields: { key: keyof Run; label: string }[] = [
+  { key: "minutes", label: "Observation length (minutes)" },
+  { key: "start", label: "Starting balance" },
+  { key: "end", label: "Ending balance" },
+  { key: "spending", label: "Total spent during observation" },
+];
+function measure(run: Run) {
+  if (Object.values(run).some(value => value.trim() === "")) return null;
+  const values = Object.values(run).map(Number);
+  if (values.some(value => !Number.isFinite(value) || value < 0) || Number(run.minutes) <= 0) return null;
+  const change = Number(run.end) - Number(run.start);
+  const receipts = change + Number(run.spending);
+  if (receipts < 0) return null;
+  const result = { net: change / Number(run.minutes), receipts: receipts / Number(run.minutes) };
+  return Number.isFinite(result.net) && Number.isFinite(result.receipts) ? result : null;
 }
+const format = (value: number) => new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(value);
 
 export default function ProfitCalculator() {
-  const [worms, setWorms] = useState(6);
-  const [bites, setBites] = useState(18);
-  const [digest, setDigest] = useState(70);
-  const [value, setValue] = useState(14);
-  const [foodCost, setFoodCost] = useState(180);
-  const [collection, setCollection] = useState(85);
-
-  const result = useMemo(() => {
-    const gross = worms * bites * (digest / 100) * value * (collection / 100);
-    const net = gross - foodCost;
-    const hourly = net * 60;
-    const nextWormGain = bites * (digest / 100) * value * (collection / 100);
-    const fivePercentGain = gross * 0.05;
-    return { gross, net, hourly, nextWormGain, fivePercentGain };
-  }, [worms, bites, digest, value, foodCost, collection]);
-
-  function reset() {
-    setWorms(6);
-    setBites(18);
-    setDigest(70);
-    setValue(14);
-    setFoodCost(180);
-    setCollection(85);
-  }
-
+  const [runs, setRuns] = useState<Run[]>([{ ...empty }, { ...empty }]);
+  const results = runs.map(measure);
   return (
-    <section className="calculator-panel" aria-label="Worm Capitalist profit calculator">
-      <div className="calculator-head">
-        <div>
-          <p className="eyebrow">Guide-side estimator</p>
-          <h2>Profit per minute</h2>
-          <p>Compare upgrades without pretending the demo formula is final.</p>
-        </div>
-        <button type="button" onClick={reset} className="icon-button" aria-label="Reset calculator" title="Reset calculator">
-          <RotateCcw className="h-4 w-4" />
-        </button>
+    <section className="calculator-panel" aria-label="Observed income worksheet">
+      <div className="calculator-head"><div><p className="eyebrow">Your measured session</p><h2>Observed income per minute</h2><p>Enter balances from your own run. No game rates or upgrade multipliers are assumed.</p></div>
+        <button type="button" className="btn-secondary" onClick={() => setRuns([{ ...empty }, { ...empty }])}>Clear measurements</button>
       </div>
-
+      <p className="calculator-note">Keep the game version, food, collection behavior and observation length comparable. Record every purchase; avoid resets, refunds and one-off rewards during the sample. Results describe only the interval you entered.</p>
       <div className="calculator-grid">
-        {[
-          ["Worms", worms, setWorms, 1, 40, 1],
-          ["Bites / min", bites, setBites, 1, 80, 1],
-          ["Digestion %", digest, setDigest, 10, 200, 5],
-          ["Resource value", value, setValue, 1, 200, 1],
-          ["Food cost / min", foodCost, setFoodCost, 0, 2000, 25],
-          ["Collection %", collection, setCollection, 10, 100, 5],
-        ].map(([label, current, setter, min, max, step]) => (
-          <label key={label as string} className="calc-control">
-            <span><strong>{label as string}</strong><small>{current as number}</small></span>
-            <input type="range" min={min as number} max={max as number} step={step as number} value={current as number} onChange={(event) => (setter as (value: number) => void)(Number(event.target.value))} />
-          </label>
-        ))}
+        {runs.map((run, index) => <fieldset key={index} className="min-w-0 space-y-4"><legend className="font-bold mb-3">Run {index + 1}{index === 1 ? " (optional comparison)" : ""}</legend>
+          {fields.map(field => <label key={field.key} className="calc-control"><span>{field.label}</span><input className="w-full min-w-0 rounded border border-slate-400 bg-white p-2 text-slate-900" aria-label={`Run ${index + 1}: ${field.label}`} type="number" inputMode="decimal" min={field.key === "minutes" ? "0.01" : "0"} step="any" value={run[field.key]} onChange={event => setRuns(current => current.map((item, i) => i === index ? { ...item, [field.key]: event.target.value } : item))} /></label>)}
+          <div aria-live="polite" data-testid={`run-${index + 1}-result`}>
+            {results[index] ? <><p>Net balance change / min: <strong>{format(results[index]!.net)}</strong></p><p>Receipts / min: <strong>{format(results[index]!.receipts)}</strong></p></> : <p>{Object.values(run).every(value => value === "") ? "Enter all four measurements to calculate." : "Complete all fields with nonnegative numbers, a duration above zero, and spending sufficient to explain any balance loss. Keep calculations within the supported numeric range."}</p>}
+          </div>
+        </fieldset>)}
       </div>
-
-      <div className="calc-results">
-        <div><Calculator className="h-5 w-5" /><span>Gross / min</span><strong>{money(result.gross)}</strong></div>
-        <div><span>Net / min</span><strong>{money(result.net)}</strong></div>
-        <div><span>Net / hour</span><strong>{money(result.hourly)}</strong></div>
-      </div>
-      <p className="calculator-note">
-        Next worm adds about <strong>{money(result.nextWormGain)}</strong> gross per minute. A 5% broad upgrade adds about <strong>{money(result.fivePercentGain)}</strong>.
-      </p>
+      {results[0] && results[1] ? <p className="calculator-note" role="status">Run 2 minus run 1 net change / min: <strong>{Number.isFinite(results[1].net - results[0].net) ? format(results[1].net - results[0].net) : "Difference exceeds numeric range"}</strong>. This comparison does not establish which upgrade caused the difference.</p> : null}
+      <p className="calculator-note">Net change / min = (ending balance − starting balance) ÷ minutes. Receipts / min = (ending balance − starting balance + total spending) ÷ minutes. Spending is already included in the balance change: do not subtract it twice. Values are in the game balance units you enter, not real-world currency. Inputs stay on this page and clear on reload.</p>
     </section>
   );
 }

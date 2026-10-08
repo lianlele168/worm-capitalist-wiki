@@ -1,0 +1,76 @@
+{
+  "path": "/skill-tree/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:29.689Z",
+  "testedUrl": "http://127.0.0.1:57392/skill-tree/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/skill-tree/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/skill-tree-390.png",
+        "sha256": "84f06c1118b2322f7eb07c023a2eef389b8fb615aabe2847a205574fe0d86117"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/skill-tree-768.png",
+        "sha256": "32b1341a2a1a5454aa73e423cd042603cc61ebf7acfba3b96d2ee264eb5e3128"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/skill-tree-1024.png",
+        "sha256": "45752e650afd93eb3048a67111d9660acdfc7eb521e4d38ec622eefb459e05dd"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/skill-tree-1440.png",
+        "sha256": "8e90b35ac41da1d1ab66b346e31e4c15006811ce72dad552ddb2d299866bd7b6"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

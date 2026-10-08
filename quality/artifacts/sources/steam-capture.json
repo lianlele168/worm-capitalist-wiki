@@ -1,0 +1,14 @@
+{
+  "project": "worm-capitalist-wiki",
+  "id": "steam",
+  "url": "https://store.steampowered.com/app/5073430/Worm_Capitalist/",
+  "checkedAt": "2026-10-08T15:23:20.630Z",
+  "review": "pending",
+  "status": 200,
+  "finalUrl": "https://store.steampowered.com/app/5073430/Worm_Capitalist/",
+  "contentType": "text/html; charset=UTF-8",
+  "artifact": {
+    "path": "quality/artifacts/sources/steam.html",
+    "sha256": "7fa9522cae883891529099fc5dd36c8492de9e23bf99242c4de6ce23650fc1cd"
+  }
+}

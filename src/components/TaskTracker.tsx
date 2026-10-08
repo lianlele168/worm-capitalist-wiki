@@ -1,27 +1,32 @@
 "use client";
 
-import Link from "next/link";
+
 import type { CSSProperties } from "react";
 import { useEffect, useMemo, useState } from "react";
 import { Check, CheckCheck, Clipboard, RotateCcw } from "lucide-react";
 import { milestones } from "@/data/tasks";
 
 type Filter = "all" | "remaining" | "done";
-const storageKey = "worm-capitalist-demo-checklist-v1";
+const storageKey = "worm-capitalist-observation-checklist-v2";
 
 export default function TaskTracker() {
   const [completed, setCompleted] = useState<number[]>([]);
   const [filter, setFilter] = useState<Filter>("all");
   const [copied, setCopied] = useState(false);
   const [ready, setReady] = useState(false);
+  const [storageError, setStorageError] = useState(false);
+  const [copyError, setCopyError] = useState(false);
+  const [canPersist, setCanPersist] = useState(false);
 
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
       try {
         const saved = JSON.parse(window.localStorage.getItem(storageKey) ?? "[]");
-        if (Array.isArray(saved)) setCompleted(saved.filter((id) => Number.isInteger(id) && id >= 1 && id <= milestones.length));
+        if (!Array.isArray(saved) || saved.some(id => !Number.isInteger(id) || id < 1 || id > milestones.length)) throw new Error("Invalid saved checks");
+        setCompleted([...new Set<number>(saved)]);
+        setCanPersist(true);
       } catch {
-        window.localStorage.removeItem(storageKey);
+        setStorageError(true);
       }
       setReady(true);
     });
@@ -29,8 +34,14 @@ export default function TaskTracker() {
   }, []);
 
   useEffect(() => {
-    if (ready) window.localStorage.setItem(storageKey, JSON.stringify(completed));
-  }, [completed, ready]);
+    if (ready && canPersist) {
+      const frame = window.requestAnimationFrame(() => {
+        try { window.localStorage.setItem(storageKey, JSON.stringify(completed)); }
+        catch { setStorageError(true); }
+      });
+      return () => window.cancelAnimationFrame(frame);
+    }
+  }, [completed, ready, canPersist]);
 
   const visibleTasks = useMemo(() => milestones.filter((task) => {
     if (filter === "done") return completed.includes(task.id);
@@ -48,20 +59,23 @@ export default function TaskTracker() {
   async function copyRemaining() {
     const remaining = milestones.filter((task) => !completed.includes(task.id));
     const text = remaining.length
-      ? `Worm Capitalist - remaining demo milestones\n${remaining.map((task) => `${task.id}. ${task.title} - ${task.requirement}`).join("\n")}`
-      : "Worm Capitalist - all demo milestones checked!";
-    await navigator.clipboard.writeText(text);
-    setCopied(true);
-    window.setTimeout(() => setCopied(false), 1800);
+      ? `Worm Capitalist - remaining observation checks\n${remaining.map((task) => `${task.id}. ${task.title} - ${task.requirement}`).join("\n")}`
+      : "Worm Capitalist - all observation checks complete!";
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopyError(false);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1800);
+    } catch { setCopyError(true); }
   }
 
   return (
     <div className="tracker-shell">
       <div className="tracker-summary">
         <div>
-          <p className="eyebrow">Saved in this browser</p>
+          <p className="eyebrow">{!ready ? "Loading saved checks…" : storageError ? "Session-only checks" : "Saved in this browser"}</p>
           <h2>{completed.length} of {milestones.length} checked</h2>
-          <p>{nextTask ? <>Next: <Link href={`/${nextTask.slug}/`}>{nextTask.title}</Link></> : "The demo loop is ready for a cleaner reset."}</p>
+          <p>{nextTask ? <>Next: <strong>{nextTask.title}</strong></> : "All observation checks marked complete."}</p>
         </div>
         <div className="tracker-ring" style={{ "--progress": `${percent * 3.6}deg` } as CSSProperties} aria-label={`${percent}% complete`}>
           <span>{percent}%</span>
@@ -69,6 +83,8 @@ export default function TaskTracker() {
       </div>
 
       <div className="progress-track" aria-hidden="true"><span style={{ width: `${percent}%` }} /></div>
+      {storageError ? <p role="alert">Browser storage is unavailable or could not be read. Changes may be lost when you leave this page.</p> : null}
+      {copyError ? <p role="alert">Copy failed. Select and copy the checklist text manually.</p> : null}
 
       <div className="tracker-toolbar">
         <div className="segmented-control" aria-label="Filter tasks">
@@ -79,7 +95,7 @@ export default function TaskTracker() {
           ))}
         </div>
         <div className="flex gap-2">
-          <button type="button" onClick={() => setCompleted(milestones.map((task) => task.id))} className="icon-button" aria-label="Mark every milestone complete" title="Mark all complete"><CheckCheck className="h-4 w-4" /></button>
+          <button type="button" onClick={() => setCompleted(milestones.map((task) => task.id))} className="icon-button" aria-label="Mark every observation complete" title="Mark all complete"><CheckCheck className="h-4 w-4" /></button>
           <button type="button" onClick={() => setCompleted([])} className="icon-button" aria-label="Reset task progress" title="Reset progress"><RotateCcw className="h-4 w-4" /></button>
           <button type="button" onClick={copyRemaining} className="btn-secondary"><Clipboard className="h-4 w-4" />{copied ? "Copied" : "Copy remaining"}</button>
         </div>
@@ -95,15 +111,15 @@ export default function TaskTracker() {
               </button>
               <span className="tracker-index">{String(task.id).padStart(2, "0")}</span>
               <div className="min-w-0">
-                <Link href={`/${task.slug}/`}>{task.title}</Link>
+                <strong>{task.title}</strong>
                 <p>{task.requirement} <span aria-hidden="true">/</span> {task.reward}</p>
               </div>
             </div>
           );
         })}
-        {!visibleTasks.length ? <p className="tracker-empty">No milestones in this view.</p> : null}
+        {!visibleTasks.length ? <p className="tracker-empty">No observation checks in this view.</p> : null}
       </div>
-      <span className="sr-only" aria-live="polite">{copied ? "Remaining milestone list copied" : `${completed.length} of ${milestones.length} milestones checked`}</span>
+      <span className="sr-only" aria-live="polite">{copied ? "Remaining observation list copied" : `${completed.length} of ${milestones.length} observation checks complete`}</span>
     </div>
   );
 }

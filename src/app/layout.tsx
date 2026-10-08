@@ -18,38 +18,9 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(site.baseUrl),
-  title: {
-    default: "Worm Capitalist Guide ",
-    template: "%s | Worm Capitalist Guide",
-  },
-  description: site.description,
-  keywords: [
-    "Worm Capitalist guide",
-    "Worm Capitalist walkthrough",
-    "Worm Capitalist demo",
-    "Worm Capitalist upgrades",
-    "Worm Capitalist profit calculator",
-    "Worm Capitalist skill tree",
-    "Worm Capitalist rebirth",
-    "Worm Capitalist Steam demo",
-  ],
-  openGraph: {
-    type: "website",
-    url: "/",
-    siteName: site.name,
-    title: "Worm Capitalist Guide - Demo Walkthrough and Calculator",
-    description: site.description,
-    images: [{ url: "/cover.png", width: 630, height: 500, alt: "Worm Capitalist cover art" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Worm Capitalist Guide - Demo Walkthrough and Calculator",
-    description: site.description,
-    images: ["/cover.png"],
-  },
-  icons: { icon: "/favicon.svg", apple: "/cover.png" },
-  robots: { index: true, follow: true },
+ metadataBase: new URL(site.baseUrl),
+ title: {default: "Worm Capitalist demo guide", template: "%s | Worm Capitalist Guide"},
+ description: site.description, icons: {icon:"/favicon.svg"}, robots:{index:true,follow:true},
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

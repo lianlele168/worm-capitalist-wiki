@@ -1,0 +1,78 @@
+{
+  "path": "/updates/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:33.619Z",
+  "testedUrl": "http://127.0.0.1:57392/updates/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/updates/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist",
+    "https://itch.io/e/44701405/tikotey-updated-worm-capitalist-demo",
+    "https://store.steampowered.com/app/5073430/Worm_Capitalist/"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/updates-390.png",
+        "sha256": "6b05622dfa11e06a30ad163707ab50910a9ab13c0d6be2d3f34b9e877dea7d06"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/updates-768.png",
+        "sha256": "68e1e03829eeecf6302e20bda0eec884be79b9ab325fbfa058624b0bb31b4e7c"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/updates-1024.png",
+        "sha256": "c009e0863da05b87d92aba5ecf1f846142f6d1d518af84cb93fccde60b93089f"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/updates-1440.png",
+        "sha256": "e55a6710c985c9809657de2dfc079991476bca2776b500a3053305da8f81fa12"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

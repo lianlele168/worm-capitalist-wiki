@@ -1,0 +1,76 @@
+{
+  "path": "/steam-demo/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:30.965Z",
+  "testedUrl": "http://127.0.0.1:57392/steam-demo/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/steam-demo/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/steam-demo-390.png",
+        "sha256": "e8372bbdc087e6e3b43403b796f2a462bbe8b0777bab2a7f7a9f48ead58e6591"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/steam-demo-768.png",
+        "sha256": "678d569ecde4a1d87e427e275b72b50445bc715fb546300e39537330f86913dc"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/steam-demo-1024.png",
+        "sha256": "447da0a15dc4521401b89d1d6d28f65178c1db07d4742a4aab147438a91d3df0"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/steam-demo-1440.png",
+        "sha256": "05a0daf358b5fd70862efef7e4994b747d2850b8cfe981be515bb8eb414d101d"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

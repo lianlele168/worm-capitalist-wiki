@@ -1,0 +1,82 @@
+{
+  "path": "/",
+  "codeFingerprint": "5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472",
+  "checkedAt": "2026-10-08T16:29:35.542Z",
+  "testedUrl": "http://127.0.0.1:65056/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/home-390.png",
+        "sha256": "8e2d2b193a41b1edffbb33d3c2b8c4b745e7de4febad619b8a0e0fc0ff64800d"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/home-768.png",
+        "sha256": "bee6e4cb54451f450b16444015c9d423034e30dd7de6bd1f7e624938a2c7fd9a"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/home-1024.png",
+        "sha256": "cbd2eee6a96379c9bd191281ea532d9dfe46b6659947408e1b9fee2375355023"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": true,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/home-1440.png",
+        "sha256": "959dcb0e521bc1355559d9c95aeb920281a8c1e684f4bc49210f81ba5ca517c8"
+      }
+    }
+  ],
+  "interaction": "passed",
+  "contentReview": "completed in quality/content-review.md",
+  "note": "Actual local export; not certification of deployed site or search indexing.",
+  "visualReviewer": "Codex agent — actually inspected every listed screenshot",
+  "visualReviewedAt": "2026-10-08T16:32:11.249656+00:00",
+  "interactionArtifact": {
+    "path": "quality/artifacts/interaction-review.json",
+    "sha256": "704f6c97cb1e40778fb23b74077016e049cb794cff92daddf5350bc58e1b91e3"
+  },
+  "interactionScope": "Shared header search/navigation tested on retained routes; worksheet and checklist full test coverage. Static legal bodies have no separate controls.",
+  "externalLinkReview": "Only HTTP destinations are captured current itch.io and Steam official pages, both HTTP 200; mailto is retained correction link, no message sent."
+}

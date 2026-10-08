@@ -1,0 +1,40 @@
+Home
+/
+Worm Capitalist Automation Guide
+
+VERSION-SPECIFIC CHECKS
+
+Worm Capitalist Automation Guide
+
+Check what an automation feature actually does in your version.
+
+Official game
+Checklist
+MILESTONE
+5 of 5
+AREA
+Your observation
+NEEDED
+Named feature and version
+RESULT
+Behavior notes
+Separate a description from a test
+
+The published feature list mentions workers, but this does not verify every automation feature in every build. Older player suggestions are not proof that a feature has shipped.
+
+Observe before relying on it
+
+Record the exact feature name. Observe whether it buys, collects or only assists another action. Note whether the game remains in the foreground. Do not infer offline earnings or background-tab behavior from a short active session.
+
+SOURCE SCOPE
+
+Dated public-source review
+
+See Updates & Sources for the 8 October 2026 public-page review and remaining gaps. No in-game playtest is claimed.
+
+CONTINUE
+
+Worm Capitalist Controls
+Worm Capitalist Bugs and Fixes
+Worm Capitalist Steam Demo
+Worm Capitalist Updates and Sources

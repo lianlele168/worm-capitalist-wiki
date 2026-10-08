@@ -1,0 +1,70 @@
+HOME / INDEPENDENT GUIDE
+
+Worm Capitalist observation guide
+
+Use this routine to build your own evidence before spending or resetting. These are editorial observation checks, not in-game achievements or a claimed fastest progression route.
+
+Start with the version you actually play
+
+Open the developer's current demo page from the home page. Record whether you used itch.io or Steam and copy any version label shown. Use one save for a comparison. Keep a short note of your balance, owned upgrades and any temporary effects before starting.
+
+The developer describes upgrade categories, Colony Points, workers and resets on the official listing. Check what your particular demo exposes before following any advice; a feature description is not a complete price or unlock table.
+
+Compare a purchase without guessing its multiplier
+
+Measure a baseline interval with the worksheet. Note the exact displayed upgrade name, price and effect before buying it. Start the comparison interval after the purchase, keeping food and collection behavior similar. If you buy anything during either interval, record that spending separately.
+
+Repeat both conditions if you can. If several upgrades or effects changed together, label the result as a combined observation. Do not turn that number into an isolated upgrade rating.
+
+Read decisions before committing
+
+For a skill, copy the visible effect and prerequisites before spending points. If the description does not explain an interaction, leave it unknown rather than assuming a percentage.
+
+Before a reset, read any confirmation and write down the stated losses and rewards. If those consequences are unclear, leave the action unconfirmed while you look for a current explanation. This guide supplies no universal balance threshold.
+
+For a worker or automation feature you have unlocked, watch a fixed interval under the conditions you intend to use. Record what it does, whether you still need to collect or supply anything, and what stops it. Do not infer behavior after closing the game from an active-window observation.
+
+Keep a useful observation record
+
+Use this compact note format: platform/version; starting upgrades; one change; displayed cost; start/end balance; total spending; minutes; collection behavior; unusual events; result on a repeated interval. Keep screenshots in your own notes if they help identify the version or exact description.
+
+The checklist below stores only completed check numbers in this browser. It is not linked to your game save. Reset clears the checks; copy exports the remaining task text. If storage or clipboard access fails, you can still use the visible checklist during this session.
+
+SAVED IN THIS BROWSER
+
+0 of 5 checked
+
+Next: Record your starting state
+
+0%
+All
+Remaining
+Done
+Copy remaining
+01
+Record your starting state
+
+Platform, version and owned upgrades / Baseline notes
+
+02
+Measure one purchase
+
+Displayed cost and comparable intervals / Repeatable comparison
+
+03
+Read a skill description
+
+Visible effect and prerequisites / Documented decision
+
+04
+Read the reset preview
+
+Stated losses and rewards / Known consequences
+
+05
+Check automation behavior
+
+Feature, conditions and observed actions / Behavior notes
+
+0 of 5 observation checks complete
+Compare your observations in the worksheet →

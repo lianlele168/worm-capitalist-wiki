@@ -1,0 +1,21 @@
+HOME / INDEPENDENT GUIDE
+
+About and sources
+
+An independent, AI-assisted reference maintained under the name Hlele. The review described here was performed by Codex agent, not presented as Hlele's personal gameplay.
+
+What was checked
+
+On 8 October 2026 (UTC), Codex agent read and saved the official itch.io and Steam listings linked below. itch.io identifies Tikotey and an HTML5/Windows early demo. Steam lists Tikotey as developer, Ivy Juice as publisher and a downloadable demo while the full game is not yet available.
+
+The local website build was reviewed for page content, links, responsive layout and the worksheet/checklist interactions. The worksheet arithmetic was checked with explicit examples. No logged-in gameplay, optimal upgrade ranking, reset formula or independent game balancing test is claimed.
+
+How this guide is maintained
+
+Source descriptions are identified as developer descriptions. The observation routine is editorial advice and the worksheet operates only on numbers you enter. Unknown prices and effects are not filled with guesses. Review dates change only when an actual review is performed.
+
+Contact Hlele at lianlele168@gmail.com with a correction, including the page, game version and the source or reproduction steps. This website is not affiliated with Tikotey, Ivy Juice, itch.io or Valve.
+
+Developer’s itch.io listing ↗
+Steam game & demo listing ↗
+Email Hlele ↗

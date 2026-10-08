@@ -1,0 +1,44 @@
+Home
+/
+Worm Capitalist Upgrades Guide
+
+COMPARE OBSERVED RESULTS
+
+Worm Capitalist Upgrades Guide
+
+Record an upgrade cost and a comparable before-and-after interval.
+
+Official game
+Checklist
+MILESTONE
+2 of 5
+AREA
+Your observation
+NEEDED
+Baseline and upgrade cost
+RESULT
+Observed comparison
+Available evidence
+
+The developer describes speed, appetite, digestion and resource-production upgrades. No numerical upgrade model is reproduced here.
+
+A comparison you can make
+
+Write down the exact upgrade label and cost displayed in your build. Measure a baseline, buy one upgrade, then repeat with similar play behavior. Include the purchase cost if measuring the immediate net balance effect; exclude it from both intervals only when comparing subsequent operating income.
+
+No universal priority
+
+The previous buy-a-worm-first rule was unsupported and has been withdrawn. A useful comparison needs your current version, costs and repeated observations.
+
+SOURCE SCOPE
+
+Dated public-source review
+
+See Updates & Sources for the 8 October 2026 public-page review and remaining gaps. No in-game playtest is claimed.
+
+CONTINUE
+
+Worm Capitalist Skill Tree Guide
+Worm Capitalist Rebirth Guide
+Worm Capitalist Automation Guide
+Worm Capitalist Controls

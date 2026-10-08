@@ -1,0 +1,416 @@
+export type ContentSection = {
+  heading: string;
+  paragraphs?: string[];
+  bullets?: string[];
+  steps?: { title: string; body: string }[];
+  callout?: string;
+};
+
+export type GuidePage = {
+  slug: string;
+  title: string;
+  eyebrow: string;
+  description: string;
+  summary: string;
+  image?: string;
+  imageAlt?: string;
+  sections: ContentSection[];
+  faqs?: { question: string; answer: string }[];
+};
+
+export const guidePages: GuidePage[] = [
+  {
+    "slug": "play",
+    "title": "Play Worm Capitalist Online",
+    "eyebrow": "Choose a demo",
+    "description": "Open the official browser demo or find the Steam download.",
+    "summary": "Open the official browser demo or find the Steam download.",
+    "sections": [
+      {
+        "heading": "Choose where to play",
+        "paragraphs": [
+          "The developer lists HTML5 and Windows versions. The itch.io page now directs players to the updated Steam demo. Follow the official links above and on the Steam demo page."
+        ]
+      },
+      {
+        "heading": "If browser play fails",
+        "paragraphs": [
+          "Open the developer page directly. Check whether your browser is blocking third-party content. This site cannot inspect or repair your game save."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "walkthrough",
+    "title": "Worm Capitalist Demo Walkthrough",
+    "eyebrow": "Session notes",
+    "description": "Use a measured first session instead of an untested purchase order.",
+    "summary": "Use a measured first session instead of an untested purchase order.",
+    "sections": [
+      {
+        "heading": "Start with a baseline",
+        "paragraphs": [
+          "Open your chosen version and record its version label, starting balance and the upgrades already owned. Keep these notes with your result; a different build may behave differently."
+        ]
+      },
+      {
+        "heading": "Compare one decision",
+        "paragraphs": [
+          "Record your balance before buying an upgrade, its displayed cost, and the balance after a fixed observation interval. Record other purchases during that interval as well. The income worksheet can normalize the balance change per minute."
+        ]
+      },
+      {
+        "heading": "What this guide does not establish",
+        "paragraphs": [
+          "We have not reproduced a fastest completion route or an optimal reset point in the current build. Earlier recommendations to always buy another worm first have been removed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "profit-calculator",
+    "title": "Worm Capitalist Profit Calculator",
+    "eyebrow": "Observed income worksheet",
+    "description": "Compare two recorded sessions using balance changes and spending you enter yourself.",
+    "summary": "Compare two recorded sessions using balance changes and spending you enter yourself.",
+    "sections": [
+      {
+        "heading": "Record a clean interval",
+        "paragraphs": [
+          "Write down the starting and ending balance, elapsed minutes and total spending. Use the same game balance unit throughout. Do not include a reset, refund or one-off reward if you want to compare ordinary income."
+        ]
+      },
+      {
+        "heading": "Read the result",
+        "paragraphs": [
+          "Net change already includes purchases. Adding spending back gives estimated receipts during that interval, provided there were no other adjustments to your balance. This arithmetic does not model worms, digestion or any hidden game multiplier."
+        ]
+      },
+      {
+        "heading": "Worked arithmetic example",
+        "paragraphs": [
+          "Illustrative numbers, not game data: starting balance 100, ending balance 160, spending 20, and duration 2 minutes give a net change of 30 per minute and receipts of 40 per minute. A second interval of 100 to 140 over 2 minutes gives 20 net per minute, which is 10 lower."
+        ]
+      },
+      {
+        "heading": "Limits",
+        "paragraphs": [
+          "Different food, attention, upgrade costs and timing can change the result. A higher measured rate does not prove causation or predict an hour of play. The tool starts empty and stores no measurements."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "upgrade-checklist",
+    "title": "Worm Capitalist Upgrade Checklist",
+    "eyebrow": "Your observation checklist",
+    "description": "Save preparation and comparison checks locally in your browser.",
+    "summary": "Save preparation and comparison checks locally in your browser.",
+    "sections": [
+      {
+        "heading": "What the checks mean",
+        "paragraphs": [
+          "These are editorial observation steps, not game achievements or a required progression route. Complete them in any order. The checklist does not read your game save."
+        ]
+      },
+      {
+        "heading": "Local storage",
+        "paragraphs": [
+          "Progress belongs to this browser only. Clearing browser data removes it; a storage error means progress may last only until this page closes."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "upgrades",
+    "title": "Worm Capitalist Upgrades Guide",
+    "eyebrow": "Compare observed results",
+    "description": "Record an upgrade cost and a comparable before-and-after interval.",
+    "summary": "Record an upgrade cost and a comparable before-and-after interval.",
+    "sections": [
+      {
+        "heading": "Available evidence",
+        "paragraphs": [
+          "The developer describes speed, appetite, digestion and resource-production upgrades. No numerical upgrade model is reproduced here."
+        ]
+      },
+      {
+        "heading": "A comparison you can make",
+        "paragraphs": [
+          "Write down the exact upgrade label and cost displayed in your build. Measure a baseline, buy one upgrade, then repeat with similar play behavior. Include the purchase cost if measuring the immediate net balance effect; exclude it from both intervals only when comparing subsequent operating income."
+        ]
+      },
+      {
+        "heading": "No universal priority",
+        "paragraphs": [
+          "The previous buy-a-worm-first rule was unsupported and has been withdrawn. A useful comparison needs your current version, costs and repeated observations."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "skill-tree",
+    "title": "Worm Capitalist Skill Tree Guide",
+    "eyebrow": "Check your current build",
+    "description": "Use the displayed skill descriptions when planning a purchase.",
+    "summary": "Use the displayed skill descriptions when planning a purchase.",
+    "sections": [
+      {
+        "heading": "Published feature",
+        "paragraphs": [
+          "The official description links Colony Points with abilities, upgrades and workers. It does not give us a complete current node table or a tested optimum."
+        ]
+      },
+      {
+        "heading": "Before spending",
+        "paragraphs": [
+          "Record the node name, cost, prerequisites and exact description. Check whether the effect applies immediately or only under stated conditions. If a description is ambiguous, leave the expected gain unknown."
+        ]
+      },
+      {
+        "heading": "Missing evidence",
+        "paragraphs": [
+          "We have not verified every skill, point-earning rule or worker effect in the current demo. We do not recommend a specific node order."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "rebirth",
+    "title": "Worm Capitalist Rebirth Guide",
+    "eyebrow": "Read the reset preview",
+    "description": "Check the reset preview before discarding a run.",
+    "summary": "Check the reset preview before discarding a run.",
+    "sections": [
+      {
+        "heading": "Published feature",
+        "paragraphs": [
+          "The developer describes resetting the colony for permanent upgrades. The current reward formula and exact retained resources have not been verified here."
+        ]
+      },
+      {
+        "heading": "Before confirming",
+        "paragraphs": [
+          "Record what the current reset dialog says will be lost and retained. Do not assume a reward from a number shown in an older guide. If the dialog is unclear, consult the developer before confirming."
+        ]
+      },
+      {
+        "heading": "Correction",
+        "paragraphs": [
+          "Previous claims about a fixed multiplier threshold, mutation tokens and an optimal cash target were not supported by evidence. They have been removed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "automation",
+    "title": "Worm Capitalist Automation Guide",
+    "eyebrow": "Version-specific checks",
+    "description": "Check what an automation feature actually does in your version.",
+    "summary": "Check what an automation feature actually does in your version.",
+    "sections": [
+      {
+        "heading": "Separate a description from a test",
+        "paragraphs": [
+          "The published feature list mentions workers, but this does not verify every automation feature in every build. Older player suggestions are not proof that a feature has shipped."
+        ]
+      },
+      {
+        "heading": "Observe before relying on it",
+        "paragraphs": [
+          "Record the exact feature name. Observe whether it buys, collects or only assists another action. Note whether the game remains in the foreground. Do not infer offline earnings or background-tab behavior from a short active session."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "controls",
+    "title": "Worm Capitalist Controls",
+    "eyebrow": "Official input note",
+    "description": "Check the game instructions for your current version before changing your setup.",
+    "summary": "Check the game instructions for your current version before changing your setup.",
+    "sections": [
+      {
+        "heading": "Dated developer reply",
+        "paragraphs": [
+          "In an August 2026 itch.io reply, Tikotey described the demo as PC-only and said to right-click a worm to use the whip. That reply predates the current source check and is not a mobile compatibility test."
+        ]
+      },
+      {
+        "heading": "Input trouble",
+        "paragraphs": [
+          "Try the official page directly if an embedded frame does not receive input. Check the current build instructions for changed bindings. This guide has not tested every browser, device or controller."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bugs-fixes",
+    "title": "Worm Capitalist Bugs and Fixes",
+    "eyebrow": "Report a reproducible issue",
+    "description": "Collect the version and reproduction steps before treating an old report as a current bug.",
+    "summary": "Collect the version and reproduction steps before treating an old report as a current bug.",
+    "sections": [
+      {
+        "heading": "Report checklist",
+        "paragraphs": [
+          "Record the build or platform, browser and device, what you expected, what happened, and the shortest steps that reproduce it. Remove personal data before sharing screenshots with the developer."
+        ]
+      },
+      {
+        "heading": "Save issues",
+        "paragraphs": [
+          "We have not verified current save persistence. Earlier reports about refresh-related loss do not establish that every current build loses progress. Do not erase browser storage as a troubleshooting step if you need to preserve a save."
+        ]
+      },
+      {
+        "heading": "Where to report",
+        "paragraphs": [
+          "Use the discussion or support links on the official game page. This independent site cannot restore game progress."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "steam-demo",
+    "title": "Worm Capitalist Steam Demo",
+    "eyebrow": "Store availability",
+    "description": "The Steam store offers a demo download; the full game is listed separately.",
+    "summary": "The Steam store offers a demo download; the full game is listed separately.",
+    "sections": [
+      {
+        "heading": "Checked on 8 October 2026",
+        "paragraphs": [
+          "The Steam page provides a Download Demo action. It lists the full release as planned for 2026 and not yet available. Developer: Tikotey. Publisher: Ivy Juice."
+        ]
+      },
+      {
+        "heading": "Choose the right version",
+        "paragraphs": [
+          "Use the Steam link rather than an old direct build URL. A demo download is not confirmation that the full game has released. Check the store requirements against your computer before installing."
+        ]
+      },
+      {
+        "heading": "Correction",
+        "paragraphs": [
+          "Earlier wording saying the Steam demo was only coming soon and naming Tikotey as publisher was outdated."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "updates",
+    "title": "Worm Capitalist Updates and Sources",
+    "eyebrow": "Source log",
+    "description": "Public-source review by Codex on 8 October 2026; no in-game playtest is claimed.",
+    "summary": "Public-source review by Codex on 8 October 2026; no in-game playtest is claimed.",
+    "sections": [
+      {
+        "heading": "What was checked",
+        "paragraphs": [
+          "The official itch.io landing page and Steam listing were read. Steam demo availability and publisher attribution were corrected. The source check does not certify every gameplay statement from an earlier version of this site."
+        ]
+      },
+      {
+        "heading": "What changed",
+        "paragraphs": [
+          "Removed unsupported upgrade names, numerical bonuses and reset thresholds from the old guides route. Replaced the guessed profit model with a worksheet for user measurements. Removed automatic month labels and build-time sitemap dates."
+        ]
+      },
+      {
+        "heading": "Still unknown",
+        "paragraphs": [
+          "A verified current upgrade table, skill costs, reset formula, optimal purchase order and cross-platform save behavior remain unavailable in this review. Follow the official links below for current announcements."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "about",
+    "title": "About Worm Capitalist Guide",
+    "eyebrow": "Independent companion",
+    "description": "An independent, AI-assisted companion maintained under the Hlele identity.",
+    "summary": "An independent, AI-assisted companion maintained under the Hlele identity.",
+    "sections": [
+      {
+        "heading": "Review scope",
+        "paragraphs": [
+          "Codex performed the public-source and code review recorded on the updates page. No personal play experience or human review is implied by the site signature."
+        ]
+      },
+      {
+        "heading": "Corrections",
+        "paragraphs": [
+          "Send reproducible corrections with a source or version reference to lianlele168@gmail.com."
+        ]
+      },
+      {
+        "heading": "Ownership",
+        "paragraphs": [
+          "Game names and images belong to their respective owners. This site is not affiliated with Tikotey, Ivy Juice, itch.io or Steam."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "privacy-policy",
+    "title": "Privacy Policy",
+    "eyebrow": "Site information",
+    "description": "The checklist uses local browser storage; external game services have their own policies.",
+    "summary": "The checklist uses local browser storage; external game services have their own policies.",
+    "sections": [
+      {
+        "heading": "Local inputs",
+        "paragraphs": [
+          "The checklist saves selected checks in localStorage. The worksheet keeps inputs in page memory and clears them on reload. Neither feature includes an application request that submits those inputs."
+        ]
+      },
+      {
+        "heading": "External services",
+        "paragraphs": [
+          "Opening an external game or store loads that service. Hosting infrastructure can process request data. Consult the relevant service policies for details."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Questions about this site can be sent to lianlele168@gmail.com."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "terms",
+    "title": "Terms of Use",
+    "eyebrow": "Site information",
+    "description": "This independent reference cannot guarantee game behavior or recover game saves.",
+    "summary": "This independent reference cannot guarantee game behavior or recover game saves.",
+    "sections": [
+      {
+        "heading": "Reference material",
+        "paragraphs": [
+          "Public descriptions can change. The source log states what was actually checked. Use the game\u2019s current instructions for irreversible actions such as resets."
+        ]
+      },
+      {
+        "heading": "External services",
+        "paragraphs": [
+          "Game downloads, stores and official support are operated by third parties under their own terms."
+        ]
+      },
+      {
+        "heading": "Ownership",
+        "paragraphs": [
+          "No affiliation or endorsement is claimed. Game names and assets remain the property of their owners."
+        ]
+      }
+    ]
+  }
+];
+
+export function getGuidePage(slug: string) { return guidePages.find(page => page.slug === slug); }
+
+export const homeFaqs = [
+  { question: "Is this guide official?", answer: "No. This is an independent, AI-assisted reference. The source log describes the review scope." },
+  { question: "Does the worksheet know my game stats?", answer: "No. It only calculates from balances and elapsed time you enter." },
+];

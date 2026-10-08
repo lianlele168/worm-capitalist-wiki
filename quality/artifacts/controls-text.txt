@@ -1,0 +1,32 @@
+Home
+/
+Worm Capitalist Controls
+
+OFFICIAL INPUT NOTE
+
+Worm Capitalist Controls
+
+Check the game instructions for your current version before changing your setup.
+
+Official game
+Checklist
+Dated developer reply
+
+In an August 2026 itch.io reply, Tikotey described the demo as PC-only and said to right-click a worm to use the whip. That reply predates the current source check and is not a mobile compatibility test.
+
+Input trouble
+
+Try the official page directly if an embedded frame does not receive input. Check the current build instructions for changed bindings. This guide has not tested every browser, device or controller.
+
+SOURCE SCOPE
+
+Dated public-source review
+
+See Updates & Sources for the 8 October 2026 public-page review and remaining gaps. No in-game playtest is claimed.
+
+CONTINUE
+
+Worm Capitalist Bugs and Fixes
+Worm Capitalist Steam Demo
+Worm Capitalist Updates and Sources
+Play Worm Capitalist Online

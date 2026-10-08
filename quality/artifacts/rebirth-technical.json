@@ -1,0 +1,76 @@
+{
+  "path": "/rebirth/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:28.263Z",
+  "testedUrl": "http://127.0.0.1:57392/rebirth/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/rebirth/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/rebirth-390.png",
+        "sha256": "5564d5dfacd84611b0f489036cd3f7f21bebe7b3f334e49e294ae4a5a42fc8e7"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/rebirth-768.png",
+        "sha256": "12bfe5efc738f7fbce4104006418a8ba650c045417162814ddcb56edef633a23"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/rebirth-1024.png",
+        "sha256": "e4ec6e83ac8b2bcc714220af8b05ab61460c1ed7ee37f5c1baaf15c33d5af814"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/rebirth-1440.png",
+        "sha256": "b8f9b0d81832fde5da0f2b5761bd4b8a357c313ebc50562d28e01d54fea50e4b"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

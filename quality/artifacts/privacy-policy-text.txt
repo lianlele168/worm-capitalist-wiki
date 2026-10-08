@@ -1,0 +1,17 @@
+HOME / INDEPENDENT GUIDE
+
+Privacy policy
+
+The tools work with information you enter in your browser.
+
+Checklist and worksheet
+
+The checklist saves completed check numbers to localStorage under worm-capitalist-observation-checklist-v2. It does not read your game save or require an account. Use Reset task progress to clear valid saved checks, or remove this site's browser data to erase storage entirely. Damaged or blocked storage leaves the checklist in session-only mode and preserves unreadable saved data.
+
+Worksheet inputs remain in page memory and are cleared when you reload or leave the page. The application does not send worksheet values or checklist progress to a server. No advertising or analytics tracker is included in this build.
+
+External services and contact
+
+The hosting provider may process technical request information when serving the site. Official game links open external services whose privacy terms apply there. This site does not embed the game or those services.
+
+If you email lianlele168@gmail.com, your email provider and the recipient receive the content you send. Include only information needed to explain your question or correction.

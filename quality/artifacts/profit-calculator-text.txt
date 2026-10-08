@@ -1,0 +1,51 @@
+HOME / INDEPENDENT GUIDE
+
+Worm Capitalist measurement worksheet
+
+Use your own balances to compare two intervals. This is an accounting worksheet, with no assumed game multipliers or prediction of future earnings.
+
+YOUR MEASURED SESSION
+
+Observed income per minute
+
+Enter balances from your own run. No game rates or upgrade multipliers are assumed.
+
+Clear measurements
+
+Keep the game version, food, collection behavior and observation length comparable. Record every purchase; avoid resets, refunds and one-off rewards during the sample. Results describe only the interval you entered.
+
+Run 1
+Observation length (minutes)
+Starting balance
+Ending balance
+Total spent during observation
+
+Enter all four measurements to calculate.
+
+Run 2 (optional comparison)
+Observation length (minutes)
+Starting balance
+Ending balance
+Total spent during observation
+
+Enter all four measurements to calculate.
+
+Net change / min = (ending balance − starting balance) ÷ minutes. Receipts / min = (ending balance − starting balance + total spending) ÷ minutes. Spending is already included in the balance change: do not subtract it twice. Values are in the game balance units you enter, not real-world currency. Inputs stay on this page and clear on reload.
+
+Take a comparable sample
+
+Write down the platform and version label, owned upgrades, food and collection behavior. Start a timer with your starting balance. Record each purchase during the interval, then note the ending balance and elapsed time in minutes. Enter zero spending only when no purchases occurred.
+
+For the second run, keep those conditions comparable and change one thing. Collect in the same way at both interval boundaries. A single interval can be noisy; repeat it before attributing a difference to a purchase. Never mix balances in different units.
+
+Worked arithmetic example
+
+These are invented worksheet inputs to explain the arithmetic, not measured game results: starting balance 100, ending balance 160, spending 20 and duration 2 minutes give a net change of 30 units/minute and receipts of 40 units/minute. Spending is added back to reconstruct receipts; subtracting it again would count the cost twice.
+
+A second interval from 100 to 140 with zero spending over 2 minutes gives 20 units/minute. The comparison is −10 units/minute. This says what happened to the entered balance; it does not prove an upgrade is worse.
+
+When the result is unsuitable
+
+A reset, refund, transfer, one-off reward, unrecorded purchase or change of balance units breaks the intended comparison. Restart the observation or keep those events in a separate record. The worksheet does not know game prices, skill effects, offline earnings or a best reset threshold.
+
+Negative net change is possible when spending exceeds receipts. Negative reconstructed receipts are inconsistent with this worksheet. Missing fields, nonpositive time, negative inputs and calculations beyond the supported numeric range show an input explanation instead of a result. Inputs are not saved across reloads.

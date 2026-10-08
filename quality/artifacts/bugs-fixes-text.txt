@@ -1,0 +1,36 @@
+Home
+/
+Worm Capitalist Bugs and Fixes
+
+REPORT A REPRODUCIBLE ISSUE
+
+Worm Capitalist Bugs and Fixes
+
+Collect the version and reproduction steps before treating an old report as a current bug.
+
+Official game
+Checklist
+Report checklist
+
+Record the build or platform, browser and device, what you expected, what happened, and the shortest steps that reproduce it. Remove personal data before sharing screenshots with the developer.
+
+Save issues
+
+We have not verified current save persistence. Earlier reports about refresh-related loss do not establish that every current build loses progress. Do not erase browser storage as a troubleshooting step if you need to preserve a save.
+
+Where to report
+
+Use the discussion or support links on the official game page. This independent site cannot restore game progress.
+
+SOURCE SCOPE
+
+Dated public-source review
+
+See Updates & Sources for the 8 October 2026 public-page review and remaining gaps. No in-game playtest is claimed.
+
+CONTINUE
+
+Worm Capitalist Steam Demo
+Worm Capitalist Updates and Sources
+Play Worm Capitalist Online
+Worm Capitalist Demo Walkthrough

@@ -1,0 +1,117 @@
+export type Milestone = {
+  id: number;
+  slug: string;
+  title: string;
+  summary: string;
+  area: string;
+  requirement: string;
+  reward: string;
+  image: string;
+  imageAlt: string;
+  steps: { title: string; body: string }[];
+  tips: string[];
+};
+
+export const milestones: Milestone[] = [
+  {
+    "id": 1,
+    "slug": "walkthrough",
+    "title": "Record your starting state",
+    "summary": "Write down the platform, version label, starting balance and owned upgrades.",
+    "area": "Your observation",
+    "requirement": "Your session notes",
+    "reward": "Comparable baseline",
+    "image": "/screen-feed.jpg",
+    "imageAlt": "Worm Capitalist official promotional image",
+    "steps": [
+      {
+        "title": "Record your starting state",
+        "body": "Write down the platform, version label, starting balance and owned upgrades."
+      }
+    ],
+    "tips": [
+      "These are observation checks, not a verified optimal game route."
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "upgrades",
+    "title": "Measure one purchase",
+    "summary": "Record a displayed upgrade cost and comparable observation intervals.",
+    "area": "Your observation",
+    "requirement": "Baseline and upgrade cost",
+    "reward": "Observed comparison",
+    "image": "/screen-upgrades.jpg",
+    "imageAlt": "Worm Capitalist official promotional image",
+    "steps": [
+      {
+        "title": "Measure one purchase",
+        "body": "Record a displayed upgrade cost and comparable observation intervals."
+      }
+    ],
+    "tips": [
+      "These are observation checks, not a verified optimal game route."
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "skill-tree",
+    "title": "Read a skill description",
+    "summary": "Record the exact name, prerequisites and stated effect before spending points.",
+    "area": "Your observation",
+    "requirement": "Current skill panel",
+    "reward": "Documented decision",
+    "image": "/screen-skill-tree.jpg",
+    "imageAlt": "Worm Capitalist official promotional image",
+    "steps": [
+      {
+        "title": "Read a skill description",
+        "body": "Record the exact name, prerequisites and stated effect before spending points."
+      }
+    ],
+    "tips": [
+      "These are observation checks, not a verified optimal game route."
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "rebirth",
+    "title": "Read the reset preview",
+    "summary": "Record the stated losses and rewards before confirming a reset.",
+    "area": "Your observation",
+    "requirement": "Current reset dialog",
+    "reward": "Known consequences",
+    "image": "/screen-rebirth.jpg",
+    "imageAlt": "Worm Capitalist official promotional image",
+    "steps": [
+      {
+        "title": "Read the reset preview",
+        "body": "Record the stated losses and rewards before confirming a reset."
+      }
+    ],
+    "tips": [
+      "These are observation checks, not a verified optimal game route."
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "automation",
+    "title": "Check automation behavior",
+    "summary": "Observe the named feature under the conditions where you intend to use it.",
+    "area": "Your observation",
+    "requirement": "Named feature and version",
+    "reward": "Behavior notes",
+    "image": "/screen-profit.jpg",
+    "imageAlt": "Worm Capitalist official promotional image",
+    "steps": [
+      {
+        "title": "Check automation behavior",
+        "body": "Observe the named feature under the conditions where you intend to use it."
+      }
+    ],
+    "tips": [
+      "These are observation checks, not a verified optimal game route."
+    ]
+  }
+];
+export function getMilestone(slug: string) { return milestones.find(item => item.slug === slug); }

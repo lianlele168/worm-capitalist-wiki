@@ -1,0 +1,31 @@
+Observed income worksheet
+
+This older calculator address contains the same worksheet as the main income tool.
+
+YOUR MEASURED SESSION
+
+Observed income per minute
+
+Enter balances from your own run. No game rates or upgrade multipliers are assumed.
+
+Clear measurements
+
+Keep the game version, food, collection behavior and observation length comparable. Record every purchase; avoid resets, refunds and one-off rewards during the sample. Results describe only the interval you entered.
+
+Run 1
+Observation length (minutes)
+Starting balance
+Ending balance
+Total spent during observation
+
+Enter all four measurements to calculate.
+
+Run 2 (optional comparison)
+Observation length (minutes)
+Starting balance
+Ending balance
+Total spent during observation
+
+Enter all four measurements to calculate.
+
+Net change / min = (ending balance − starting balance) ÷ minutes. Receipts / min = (ending balance − starting balance + total spending) ÷ minutes. Spending is already included in the balance change: do not subtract it twice. Values are in the game balance units you enter, not real-world currency. Inputs stay on this page and clear on reload.

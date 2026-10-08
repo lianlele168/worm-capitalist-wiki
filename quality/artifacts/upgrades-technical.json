@@ -1,0 +1,76 @@
+{
+  "path": "/upgrades/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:36.329Z",
+  "testedUrl": "http://127.0.0.1:57392/upgrades/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/upgrades/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist"
+  ],
+  "blockedExternalRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/upgrades-390.png",
+        "sha256": "5e13cd315c23c18f9e2b2d59c17117cb698f1665ed350559696f8f2f23f05522"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/upgrades-768.png",
+        "sha256": "3b15cc215d8285f2a0a47a418e97c48cb52ce2f9d86a85926bdf304d5d0d6985"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/upgrades-1024.png",
+        "sha256": "74b8cbbd4b0f32786bb03918b5683ccbf7d73f3ef9b312a04ce5eaa612abcac7"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/upgrades-1440.png",
+        "sha256": "fe0a0810c5383e195337f1ce1b5894287b6dcf18d9437c0a1259eb9953b4ee50"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}

@@ -1,0 +1,58 @@
+
+> worm-capitalist-wiki@0.1.0 build
+> node scripts/build-reviewed.mjs
+
+{
+  "name": "worm-capitalist-wiki",
+  "gateVersion": 2,
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    "Review source authenticity, claim support, calibration correctness and inventory completeness manually. Self-authored records are not independent proof."
+  ],
+  "checks": {
+    "fingerprint": {
+      "sha256": "5750b934479fdf598f17786d0b213c4d16747205f226c2f74bd4509e3ae0f472",
+      "files": 27
+    },
+    "pages": 6,
+    "claims": 14,
+    "sources": 6,
+    "artifacts": 23
+  },
+  "limitation": "Checks evidence completeness and recorded results; cannot certify fact truth, actual execution or Google indexing."
+}
+
+> worm-capitalist-wiki@0.1.0 build:site
+> next build
+
+▲ Next.js 16.3.2 (Turbopack)
+✓ Running next.config.mjs took 12ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 445ms
+  Running TypeScript ...
+  Finished TypeScript in 2.2s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/10) ...
+  Generating static pages using 7 workers (2/10) 
+  Generating static pages using 7 workers (4/10) 
+  Generating static pages using 7 workers (7/10) 
+✓ Generating static pages using 7 workers (10/10) in 1136ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[slug]
+│ ├ ● /profit-calculator
+│ ├ ● /walkthrough
+│ ├ ● /about
+│ └ ● [+2 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

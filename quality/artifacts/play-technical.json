@@ -1,0 +1,78 @@
+{
+  "path": "/play/",
+  "codeFingerprint": "735374dae7ba0cef663d3227ad03e8e3f9f2262c45e3c1aef7b2caf730c835c9",
+  "checkedAt": "2026-10-08T15:21:23.550Z",
+  "testedUrl": "http://127.0.0.1:57392/play/",
+  "httpStatus": 200,
+  "canonical": "https://wormcapitalist.robloxwikihub.com/play/",
+  "robotsAllowed": true,
+  "indexAllowed": true,
+  "consoleErrors": 0,
+  "errors": [],
+  "links": "passed",
+  "linkScope": "internal only",
+  "brokenLinks": [],
+  "externalLinksNotChecked": [
+    "https://tikotey.itch.io/worm-capitalist"
+  ],
+  "blockedExternalRequests": [
+    "https://html-classic.itch.zone/html/18897173/webBuild13/index.html?v=1787331827"
+  ],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 390,
+        "client": 390
+      },
+      "screenshot": {
+        "path": "quality/artifacts/play-390.png",
+        "sha256": "0b8210195ab6a71b34f2d060387027b139d54f0c3c24fda3751a839a80a28cd2"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 768,
+        "client": 768
+      },
+      "screenshot": {
+        "path": "quality/artifacts/play-768.png",
+        "sha256": "e97085a357241ddfe0554868f6256852df133d368320ad39aa19c69af97b304e"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1024,
+        "client": 1024
+      },
+      "screenshot": {
+        "path": "quality/artifacts/play-1024.png",
+        "sha256": "d4edff9bee301fe96c2e93732d41817e0643adce2f013790b88230b0bceeefa1"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "readable": null,
+      "sizes": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "screenshot": {
+        "path": "quality/artifacts/play-1440.png",
+        "sha256": "2f556f5746ed87bbdb5093f8c3fa2d23209e218b64d0d1c85d5f40e8f8e32d22"
+      }
+    }
+  ],
+  "interaction": "not-tested",
+  "contentReview": "pending",
+  "note": "Actual local static-export observations. Screenshot readability, external services, facts and interactions still require review."
+}
